@@ -1,0 +1,16 @@
+$colores: (
+	negro:"#333333",
+	rojo:"#D9443F",
+	amarillo:"#F19500",
+	azul:"#57989A",
+	dark-verde:"#121F20"
+);
+
+@each $color,$valor in $colores{
+	.#{$color}{
+		background-color: $valor;
+	}
+	.#{$color}-text{
+		color: $valor;
+	}
+}

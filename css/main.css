@@ -1,3 +1,33 @@
+.negro {
+  background-color: "#333333"; }
+
+.negro-text {
+  color: "#333333"; }
+
+.rojo {
+  background-color: "#D9443F"; }
+
+.rojo-text {
+  color: "#D9443F"; }
+
+.amarillo {
+  background-color: "#F19500"; }
+
+.amarillo-text {
+  color: "#F19500"; }
+
+.azul {
+  background-color: "#57989A"; }
+
+.azul-text {
+  color: "#57989A"; }
+
+.dark-verde {
+  background-color: "#121F20"; }
+
+.dark-verde-text {
+  color: "#121F20"; }
+
 html, body {
   margin: 0;
   pading: 0;
