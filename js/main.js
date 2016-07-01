@@ -1,1 +1,3 @@
-main.js
+$(document).ready(function(){
+	//alert("Listo");
+});
