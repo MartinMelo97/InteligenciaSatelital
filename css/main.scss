@@ -1,8 +1,15 @@
-@import "colores";
 @import "common";
+@import "colores";
+
+// Etiquetas
 
 html, body{
 	margin: 0;
 	pading: 0;
 	background-color: #DADADA;
 }
+
+img{
+	max-height: 100%;
+}
+
