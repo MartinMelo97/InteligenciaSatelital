@@ -94,16 +94,14 @@ nav.nav {
   color: rgba(0,0,0,0);
 }
 
-.welcome-background{
-  background-image: url("../img/welcome-background.jpg");
-  background-size: 100% 500px;
-  background-repeat: no-repeat;
-  top: 90%;
-}
-
 .welcome{
+  width: 100%;
   top: 110%;
   position: absolute;
 
+}
+
+.welcome-info-text{
+  text-align: justify;
 }
 /*# sourceMappingURL=main.css.map */

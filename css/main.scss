@@ -45,9 +45,13 @@ nav.nav{
   color: rgba(0,0,0,0);
 }
 
-.welcome-background
-{
-  background-image: "img/welcome-background.jpg";
+.welcome{
   width: 100%;
-  height: auto;
+  top: 110%;
+  position: absolute;
+
+}
+
+.welcome-info-text{
+  text-align: justify;
 }
