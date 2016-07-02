@@ -3,19 +3,29 @@
 	%head
 		%meta{:charset => "UTF-8"}
 		%title InteligenciaSatelital
-		%link{:rel => "stylesheet", :href => "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css"}
+		%link{:rel => "stylesheet", :href => "css/materialize.min.css"}
 		%link{:rel => "stylesheet", :href => "css/main.css"}
 		%script{src: "https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"}
-		%script{src: "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"}
+		%script{src: "js/materialize.min.js"}
 		%script{src: "js/main.js"}
 	%body
 		%nav.nav.red.lighten-1
-		Hola
-		.cover.sliderback
+			%img{:src => "img/IS Logo.png", :alt => ""}/
+		.cover
 			.slider
 				%ul.slides
 					%li
-						%img{src: "img/IS Logo.png"}
+						%img{src: "img/IS_Logo.jpg", :alt => "No se ve ni merga"}
 						.caption.center-align
-							%h1.textSlider1 Con&oacute;cenos
-							%h3.textSlider2 Conoce a I.S
+							%h1{:style => "color: #333333;"} Conócenos
+							%h3 Conoce a I.S
+					%li
+						%img{src: "img/serviciosimagen.jpg", :alt => ""}
+						.caption.center-align
+							%h1 Servicios
+							%h3 Lo que ofrece I.S
+					%li
+						%img{src: "img/productosIS.jpg", :alt => ""}
+						.caption.center-align
+							%h1 Productos
+							%h3 ¡Localiza tu flota!

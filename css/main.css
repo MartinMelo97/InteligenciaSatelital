@@ -57,4 +57,23 @@ html, body {
 img {
   max-height: 100%; }
 
+.cover{
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.slider{
+  position: absolute;
+  height: 50% !important;
+  top: 7%;
+}
+.slider img{
+  position: absolute;
+  height: 100%;
+}
 /*# sourceMappingURL=main.css.map */
