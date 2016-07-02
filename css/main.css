@@ -69,11 +69,12 @@ img {
 .slider{
   z-index: -1;
   top: 7%;
+  margin-top:3%;
 t  padding-top: 50px !important; 
 }
 
 .slider .slides li img {
-    background-size: 100% auto;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 /*
