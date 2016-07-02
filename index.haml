@@ -10,7 +10,31 @@
 		%script{src: "js/main.js"}
 	%body
 		%nav.nav
-			%img{:src => "img/IS Logo.png", :alt => ""}/
+			.nav-wrapper
+				%a{href: "#"}
+					%img{:src => "img/IS Logo.png", :alt => ""}/
+				%ul#nav-mobile.right.hide-on-med-and-down
+					%li
+						%a{href: "#"} Inicio
+					%li
+						%a{href: "#"} Conócenos
+					%li
+						%a{href: "#"} Servicios
+					%li
+						%a{href: "#"} Productos
+					%li
+						%a{href: "#"} Contactos
+					%li
+						%a.hiddentext{href: "#"} Some text
+					%li
+						%a.hiddentext{href: "#"} Some text
+					%li.rojo-text
+						%a{href: "#"}
+							%img.flat-icons{src: "img/Espanol.png"} Español
+					%li
+						%a{href: "#"}
+							%img.flat-icons{src: "img/Ingles.png"} Inglés
+
 		.cover
 			.slider
 				%ul.slides

@@ -81,4 +81,13 @@ nav.nav {
   background-size: 100% 100%;
   background-repeat: no-repeat; }
 
+.flat-icons{
+  width: 25px;
+  height: 25px;
+}
+
+.hiddentext{
+  color: rgba(0,0,0,0);
+}
+
 /*# sourceMappingURL=main.css.map */
