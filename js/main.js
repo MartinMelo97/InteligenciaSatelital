@@ -5,20 +5,26 @@ $(document).ready(function(){
 		transition:800
 
 	});
-	$(".nav").css({ "background-color":"transparent",
-									"box-shadow":"none"
+	$(".nav").css({ "background-color":"#333333",
+									"box-shadow":"none",
+									"height": "100px"
 										});
+	$(".nav-li").css({"padding-top": "20px"});
 });
 
 $(document).on("scroll", function(){
 		var scrollTop = $(document).scrollTop();
-		if(scrollTop > 30){
+		if(scrollTop > 100){
 			$(".nav").css({ "background-color":"#D9443F",
-											"box-shadow":"0px 3px 5px #656565"
+											"box-shadow":"0px 3px 5px #656565",
+											"height": "64px"
 										});
+			$(".nav-li").css({"padding-top": "0px"});
 		}else{
-			$(".nav").css({ "background-color":"rgba(0,0,0,0)",
-									"box-shadow":"none"
+			$(".nav").css({ "background-color":"#333333",
+									"box-shadow":"none",
+									"height": "100px"
 										});
+			$(".nav-li").css({"padding-top": "20px"});
 		}
 });
