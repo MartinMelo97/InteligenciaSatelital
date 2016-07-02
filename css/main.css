@@ -94,6 +94,13 @@ nav.nav {
   color: rgba(0,0,0,0);
 }
 
+.welcome-background{
+  background-image: url("../img/welcome-background.jpg");
+  background-size: 100% 500px;
+  background-repeat: no-repeat;
+  top: 90%;
+}
+
 .welcome{
   width: 100%;
   top: 110%;
@@ -104,4 +111,27 @@ nav.nav {
 .welcome-info-text{
   text-align: justify;
 }
+.services{
+  background-image: url("../img/background-2.jpg");
+  top: 200%;
+  width: 100%;
+  position: absolute;
+}
+
+.foote-page{
+  top: 314%;
+  height:50px;
+  line-height:50px;
+  color: #FFF;
+  background-color:#333333;;
+  position: absolute;
+  width: 100%;
+  
+}
+
+.foote-page p{
+  margin-left: 5%;
+  margin-top: 0px;
+}
+
 /*# sourceMappingURL=main.css.map */
