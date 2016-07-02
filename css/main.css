@@ -20,34 +20,34 @@
   margin: 5px; }
 
 .negro {
-  background-color: "#333333"; }
+  background-color: #333333; }
 
 .negro-text {
-  color: "#333333"; }
+  color: #333333; }
 
 .rojo {
-  background-color: "#D9443F"; }
+  background-color: #D9443F; }
 
 .rojo-text {
-  color: "#D9443F"; }
+  color: #D9443F; }
 
 .amarillo {
-  background-color: "#F19500"; }
+  background-color: #F19500; }
 
 .amarillo-text {
-  color: "#F19500"; }
+  color: #F19500; }
 
 .azul {
-  background-color: "#57989A"; }
+  background-color: #57989A; }
 
 .azul-text {
-  color: "#57989A"; }
+  color: #57989A; }
 
 .dark-verde {
-  background-color: "#121F20"; }
+  background-color: #121F20; }
 
 .dark-verde-text {
-  color: "#121F20"; }
+  color: #121F20; }
 
 html, body {
   margin: 0;
@@ -76,4 +76,5 @@ img {
   position: absolute;
   height: 100% !important;
 }
+
 /*# sourceMappingURL=main.css.map */
