@@ -66,9 +66,21 @@ img {
   background-position: center;
   background-size: cover; }
 
-.slider {
+.slider{
+  z-index: -1;
+  top: 7%;
   position: absolute;
-  height: 10% !important;
-  top: 7%; }
+  padding-top: 50px !important; 
+}
 
+.sliderimg{
+  width: 100%;
+  height: 100%;
+}
+/*
+ul.slides li img{
+  position: absolute;
+  height: 500px !important;
+}
+*/
 /*# sourceMappingURL=main.css.map */

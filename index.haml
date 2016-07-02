@@ -11,21 +11,18 @@
 	%body
 		%nav.nav.red.lighten-1
 			%img{:src => "img/IS Logo.png", :alt => ""}/
-		.cover
-			.slider
-				%ul.slides
-					%li
-						%img.slidesimg{src: "img/IS_Logo.jpg", :alt => "No se ve ni merga"}
-						.caption.center-align
-							%h1.negro-text Conócenos
-							%h3.rojo-text Conoce a I.S
-					%li
-						%img.slidesimg{src: "img/serviciosimagen.jpg", :alt => ""}
-						.caption.center-align
-							%h1 Servicios
-							%h3 Lo que ofrece I.S
-					%li
-						%img.slidesimg{src: "img/productosIS.jpg", :alt => ""}
-						.caption.center-align
-							%h1 Productos
-							%h3 ¡Localiza tu flota!
+		.slider.fullscreen
+			%ul.slides
+				%li
+					%img{src: "img/IS_Logo.jpg", :alt => "No se ve ni merga", :style => "width:100%; height:100%;"}
+						%h3.rojo-text Conoce a I.S
+				%li
+					%img{src: "img/serviciosimagen.jpg", :alt => ""}
+					.caption.center-align
+						%h1 Servicios
+						%h3 Lo que ofrece I.S
+				%li
+					%img{src: "img/productosIS.jpg", :alt => ""}
+					.caption.center-align
+						%h1 Productos
+						%h3 ¡Localiza tu flota!
