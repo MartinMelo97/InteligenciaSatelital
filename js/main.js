@@ -1,18 +1,22 @@
 $(document).ready(function(){
-	$(".slider").slider();	//alert("Listo");
+	$(".slider").slider({
+		interval:2500,
+		transition:800
+	});
+	$(".nav").css({ "background-color":"transparent",
+									"box-shadow":"none"
+										});
 });
 
 $(document).on("scroll", function(){
 		var scrollTop = $(document).scrollTop();
-		if(scrollTop > 300){
-			$("#brand-logo").css({"margin-top":"0%",
-														"font-size":"2em",
-														"color":"white"
-													});
+		if(scrollTop > 30){
+			$(".nav").css({ "background-color":"#D9443F",
+											"box-shadow":"0px 3px 5px #656565"
+										});
 		}else{
-			$("#brand-logo").css({"margin-top":"22%",
-														"font-size":"6em",
-														"color":"#c2185b"
-													});
+			$(".nav").css({ "background-color":"rgba(0,0,0,0)",
+									"box-shadow":"none"
+										});
 		}
-	});
+});

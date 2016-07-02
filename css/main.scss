@@ -13,9 +13,16 @@ img{
 	max-height: 100%;
 }
 
+nav.nav{
+	position:fixed;
+	z-index:5;
+	transition: .4s;
+}
+
 .cover{
   z-index: -1;
   position: absolute;
+  top:7%;
   width: 100%;
   min-height: 100%;
   background-attachment: fixed;
@@ -27,5 +34,10 @@ img{
   position: absolute;
   height: 10% !important;
   top: 7%;
+}
+
+.slider .slides li img{
+	background-size:100% 100%;
+	background-repeat:no-repeat;
 }
 
