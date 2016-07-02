@@ -69,11 +69,11 @@ img {
 
 .slider{
   position: absolute;
-  height: 50% !important;
+  height: 10% !important;
   top: 7%;
 }
-.slider img{
+.slidesimg{
   position: absolute;
-  height: 100%;
+  height: 100% !important;
 }
 /*# sourceMappingURL=main.css.map */
