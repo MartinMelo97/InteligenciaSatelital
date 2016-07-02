@@ -1,7 +1,9 @@
 $(document).ready(function(){
 	$(".slider").slider({
 		interval:2500,
+		indicators:false,
 		transition:800
+
 	});
 	$(".nav").css({ "background-color":"transparent",
 									"box-shadow":"none"

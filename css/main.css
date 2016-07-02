@@ -19,6 +19,10 @@
 .small-margin {
   margin: 5px; }
 
+.blanco{
+  background-color: #FFFFFF;
+  top: 90%;
+}
 .negro {
   background-color: #333333; }
 
@@ -74,7 +78,7 @@ nav.nav {
 
 .slider {
   position: absolute;
-  height: 10% !important;
+  height: 100% !important;
   top: 7%; }
 
 .slider .slides li img {
@@ -90,4 +94,16 @@ nav.nav {
   color: rgba(0,0,0,0);
 }
 
+.welcome-background{
+  background-image: url("../img/welcome-background.jpg");
+  background-size: 100% 500px;
+  background-repeat: no-repeat;
+  top: 90%;
+}
+
+.welcome{
+  top: 110%;
+  position: absolute;
+
+}
 /*# sourceMappingURL=main.css.map */
