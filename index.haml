@@ -5,6 +5,7 @@
 		%title InteligenciaSatelital
 		%link{:rel => "stylesheet", :href => "css/materialize.min.css"}
 		%link{:rel => "stylesheet", :href => "css/main.css"}
+		%link{:rel => "stylesheet", :href => "https://fonts.googleapis.com/css?family=Galada|Roboto+Slab"}
 		%link{:rel => "icon", :href => "img/favicon-large.png", :type => "image/x-icon"}
 		%script{src: "https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"}
 		%script{src: "js/materialize.min.js"}
@@ -36,7 +37,7 @@
 						%a{href: "#"}
 							%img.flat-icons{src: "img/Ingles.png"} Inglés
 
-		.cover
+		.cover{style:"top:10%;"}
 			.slider.fullscreen
 				%ul.slides
 					%li
@@ -54,14 +55,13 @@
 						.caption.right-align{:style => "top:40%;"}
 							%h1.negro-text Productos
 							%h2.rojo-text ¡Localiza tu flota!
-
-		.welcome
+		.welcome.azul-light{style:"position:absolute;height:100%;top:100%;"}
 			.container
-				.row
+				.row.padding-top
 					.col.s3 
 						%h1.hiddentext Some text
 					.col.s6 
-						%h1{style: "text-align: center;"} Bienvenida
+						%h1.center.galada.padding-top.negro-text Bienvenida
 					.col.s3 
 						%h1.hiddentext Some text
 				.row
@@ -71,23 +71,33 @@
 						%p.welcome-info-text Mediante nuestro potente servidor podrá monitorear en tiempo real a su equipo de trabajo, ofreciéndole un servicio de primer nivel, con las herramientas necesarias más sofisticadas, para tener el control logístico de su equipo de trabajo, adquiriendo una completa seguridad, y a su vez una plena confianza tanto en el servidor como en la empresa.
 					.col.s4
 						%p.welcome-info-text INTELIGENCIA SATELITAL se enfoca principalmente en la gestión y logística de activos empresariales,obteniendo los mejores resultados del mercado a nivel nacional, optimizando todos los recursos necesarios para lograr los objetivos propuestos.
-
-		.services
+		.services{style:"background-attachment:fixed; position:absolute !important; height:98%;"}
 			.container{style: "margin-top: 5%;"}
-				.row
-					.col.s4{style: "text-align: center;"}
-						%img.responsive-img{src: "img/gps_moto.jpg", style: "height: 300px;"}
-						%br
-						%a.btn.services-text{href: "#",  style: "height: 70px;"} Rastreo GPS para Motocicletas
-					.col.s4{style: "text-align: center;"}
-						%img.responsive-img{src: "img/gps_auto.jpg", style: "height: 300px;"}
-						%br
-						%a.btn.services-text{href: "#",  style: "height: 70px;"} Rastreo GPS para Automovil
-					.col.s4{style: "text-align: center;"}
-						%img.responsive-img{src: "img/gps_personal.jpg", style: "height: 300px;"}
-						%br
-						%a.btn.services-text{href: "#",  style: "height: 70px;"} Rastreo GPS Personal
-		
+				.row.padding-top
+					.col.s11.offset-s1.m4
+						.card{style:"height:400px;"}
+							.card-image.waves-effect.waves-block.waves-light{style:"height:200px;"}
+								%img{:src => "img/gps_moto.jpg"}/
+							.card-content 
+								.card-title.negro-text Rastreo GPS para Motocicletas
+							.card-action
+								%a.blue-text{:href => "#"} Ver más
+					.col.s11.offset-s1.m4
+						.card{style:"height:400px;"}
+							.card-image.waves-effect.waves-block.waves-light{style:"height:200px;"}
+								%img{:src => "img/gps_auto.jpg",style:"height:100%; position:absolute;"}
+							.card-content
+								.card-title.negro-text Rastreo GPS para Automovil
+							.card-action
+								%a.blue-text{:href => "#"} Ver más
+					.col.s11.offset-s1.m4
+						.card{style:"height:400px;"}
+							.card-image.waves-effect.waves-block.waves-light{style:"height:200px;"}
+								%img{:src => "img/gps_personal.jpg",style:"height:100%; position:absolute;"}
+							.card-content
+								.card-title.negro-text Rastreo GPS Personal
+							.card-action
+								%a.blue-text{:href => "#"} Ver más
 		.foote-page 
 			%p Powered By: ActoSoft 2016
 			

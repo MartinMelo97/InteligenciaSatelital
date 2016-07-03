@@ -4,9 +4,10 @@
 // Etiquetas
 
 html, body{
-	margin: 0;
-	pading: 0;
+	margin: 0px !important;
+	padding: 0px !important;
 	background-color: #DADADA;
+  font-family: 'Roboto Slab', serif;
 }
 
 img{
@@ -17,6 +18,12 @@ nav.nav{
 	position:fixed;
 	z-index:5;
 	transition: .4s;
+}
+
+//Fuentes
+
+.galada{
+  font-family: 'Galada', cursive !important;
 }
 
 .cover{
@@ -32,7 +39,7 @@ nav.nav{
 
 .slider{
   position: absolute;
-  height: 10% !important;
+  height: 100% !important;
   top: 7%;
 }
 
