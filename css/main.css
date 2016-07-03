@@ -104,6 +104,7 @@ nav.nav {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+  padding-bottom: 5%;
 }
 
 .slider {
@@ -123,7 +124,7 @@ nav.nav {
 
 .welcome {
   width: 100%;
-  top: 110%;
+  top: 130%;
   position: absolute;
 }
 
@@ -139,7 +140,7 @@ nav.nav {
 }
 
 .foote-page {
-  top: 314%;
+  top: 297%;
   height: 50px;
   line-height: 50px;
   color: #FFF;
