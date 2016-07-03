@@ -116,10 +116,11 @@ nav.nav {
   top: 200%;
   width: 100%;
   position: absolute;
+  padding-bottom: 50px;
 }
 
 .foote-page{
-  top: 314%;
+  top: 276%;
   height:50px;
   line-height:50px;
   color: #FFF;
