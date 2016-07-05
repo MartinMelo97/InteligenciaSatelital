@@ -6,6 +6,10 @@
   padding-top: 15px;
 }
 
+.padding-top-2 {
+  padding-top: 10px;
+}
+
 .padding-left {
   padding-left: 15px;
 }
@@ -24,6 +28,10 @@
 
 .small-margin {
   margin: 5px;
+}
+
+img.smaller {
+  width: 80%;
 }
 
 .negro {
@@ -85,9 +93,13 @@ img {
   max-height: 100%;
 }
 
-nav.nav {
+nav, .nav-wrapper {
   position: fixed;
   z-index: 5;
+  transition: .4s;
+}
+
+nav ul {
   transition: .4s;
 }
 
@@ -104,7 +116,6 @@ nav.nav {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  padding-bottom: 5%;
 }
 
 .slider {
@@ -124,7 +135,7 @@ nav.nav {
 
 .welcome {
   width: 100%;
-  top: 130%;
+  top: 110%;
   position: absolute;
 }
 
@@ -140,7 +151,7 @@ nav.nav {
 }
 
 .foote-page {
-  top: 297%;
+  top: 314%;
   height: 50px;
   line-height: 50px;
   color: #FFF;
