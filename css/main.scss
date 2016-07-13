@@ -22,6 +22,17 @@ nav, .nav-wrapper{
 nav ul{ 
   transition:.4s;
 }
+.hidden-text:hover{
+  background-color:inherit;
+  color:inherit;
+}
+nav ul li:hover{
+  background-color:white;
+}
+li:hover a{
+
+  color: #E65100 !important;
+}
 
 //Fuentes
 
