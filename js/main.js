@@ -5,7 +5,7 @@ $(document).ready(function(){
 		transition:800
 
 	});
-	$(".nav").css({ "background-color":"#333333",
+	/*$(".nav").css({ "background-color":"#333333",
 									"box-shadow":"none",
 									"height": "100px"
 										});
@@ -26,5 +26,5 @@ $(document).on("scroll", function(){
 									"height": "100px"
 										});
 			$(".nav-li").css({"padding-top": "20px"});
-		}
+		}*/
 });

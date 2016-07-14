@@ -4,7 +4,8 @@ $colores: (
 	amarillo:#F19500,
 	azul:#57989A,
 	azul-light:#6EC8CB,
-	dark-verde:#121F20
+	dark-verde:#121F20,
+	blanco-bonito: #F2F2F2
 );
 
 @each $color,$valor in $colores{

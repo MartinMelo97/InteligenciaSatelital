@@ -26,78 +26,36 @@
 						%a{href: "#"} Productos
 					%li.nav-li
 						%a{href: "#"} Contactos
-					%li
+					%li.no-hover
 						%a.hiddentext{href: "#"} Some text
-					%li
+					%li.no-hover
 						%a.hiddentext{href: "#"} Some text
-					%li.nav-li
-						%a.padding-top{href: "#"}
-							%img.flat-icons.smaller{src: "img/Espanol.png"}
-					%li.nav-li
-						%a.padding-top{href: "#"}
-							%img.flat-icons.smaller{src: "img/Ingles.png"}
+					%li.nav-li.no-hover
+						%a{href: "#"}
+							%img.flat-icons.smaller.padding-top{src: "img/Espanol.png"}
+					%li.nav-li.no-hover
+						%a{href: "#"}
+							%img.flat-icons.smaller.padding-top{src: "img/Ingles.png"}
 
 		.cover{style:"top:10%;"}
 			.slider.fullscreen
 				%ul.slides
 					%li
-						%img.responsive-img{src: "img/IS_Logo.jpg", :alt => ""}
-						.caption.right-align
-							%h1.rojo-text Conócenos
-							%h2.dark-verde-text Conoce a I.S
+						%img.responsive-img{src: "img/slider1.jpg", :alt => ""}
+						.caption.left-align{:style => "top:45%;"}
+							%h1.blanco-bonito-text Conócenos
+							%h2.rojo-text Conoce a I.S
 					%li
-						%img.responsive-img{src: "img/serviciosimagen.jpg", :alt => ""}
+						%img.responsive-img{src: "img/slider2.jpg", :alt => ""}
 						.caption.left-align{:style => "top:5px;"}
-							%h1.negro-text Servicios
+							%h1.blanco-bonito-text Servicios
 							%h2.rojo-text Lo que ofrece I.S
 					%li
-						%img.responsive-img{src: "img/productosIS.jpg", :alt => ""}
-						.caption.right-align{:style => "top:40%;"}
-							%h1.negro-text Productos
+						%img.responsive-img{src: "img/slider3.jpg", :alt => ""}
+						.caption.left-align{:style => "top:30%;"}
+							%h1.blanco-bonito-text Productos
 							%h2.rojo-text ¡Localiza tu flota!
-		.welcome.azul{style:"position:absolute;height:100%;top:109.5%;"}
-			.container
-				.row.padding-top
-					.col.s3 
-						%h1.hiddentext Some text
-					.col.s6 
-						%h1.center.galada.padding-top.negro-text Bienvenida
-					.col.s3 
-						%h1.hiddentext Some text
-				.row
-					.col.s4
-						%p.welcome-info-text INTELIGENCIA SATELITAL es una empresa Mexicana diseñada para adaptarse a sus necesidades con el fin de ofrecerle soluciones en seguridad y tecnología y en servicios de localización y rastreo, como lo son Gestión de flotas GPS, Gestión del servicio móvil, entre otras.
-					.col.s4
-						%p.welcome-info-text Mediante nuestro potente servidor podrá monitorear en tiempo real a su equipo de trabajo, ofreciéndole un servicio de primer nivel, con las herramientas necesarias más sofisticadas, para tener el control logístico de su equipo de trabajo, adquiriendo una completa seguridad, y a su vez una plena confianza tanto en el servidor como en la empresa.
-					.col.s4
-						%p.welcome-info-text INTELIGENCIA SATELITAL se enfoca principalmente en la gestión y logística de activos empresariales,obteniendo los mejores resultados del mercado a nivel nacional, optimizando todos los recursos necesarios para lograr los objetivos propuestos.
-		.services{style:"background-attachment:fixed; position:absolute !important; height:98%;"}
-			.container{style: "margin-top: 5%;"}
-				.row.padding-top
-					.col.s11.offset-s1.m4
-						.card{style:"height:400px;"}
-							.card-image.waves-effect.waves-block.waves-light{style:"height:200px;"}
-								%img{:src => "img/gps_moto.jpg"}/
-							.card-content 
-								.card-title.negro-text Rastreo GPS para Motocicletas
-							.card-action
-								%a.blue-text{:href => "#"} Ver más
-					.col.s11.offset-s1.m4
-						.card{style:"height:400px;"}
-							.card-image.waves-effect.waves-block.waves-light{style:"height:200px;"}
-								%img{:src => "img/gps_auto.jpg",style:"height:100%; position:absolute;"}
-							.card-content
-								.card-title.negro-text Rastreo GPS para Automovil
-							.card-action
-								%a.blue-text{:href => "#"} Ver más
-					.col.s11.offset-s1.m4
-						.card{style:"height:400px;"}
-							.card-image.waves-effect.waves-block.waves-light{style:"height:200px;"}
-								%img{:src => "img/gps_personal.jpg",style:"height:100%; position:absolute;"}
-							.card-content
-								.card-title.negro-text Rastreo GPS Personal
-							.card-action
-								%a.blue-text{:href => "#"} Ver más
+	
 		.foote-page 
 			%p Powered By: ActoSoft 2016
 			

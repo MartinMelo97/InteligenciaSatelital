@@ -84,7 +84,7 @@ li:hover a{
 }
 
 .foote-page{
-  top: 314%;
+  top: 110%;
   height:50px;
   line-height:50px;
   color: #FFF;
@@ -97,4 +97,8 @@ li:hover a{
 .foote-page p{
   margin-left: 5%;
   margin-top: 0px;
+}
+
+.no-hover:hover{
+  background-color: inherit;
 }
