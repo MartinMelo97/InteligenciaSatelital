@@ -115,3 +115,36 @@ li:hover a{
 .prod-cont{
   padding:50px;
 }
+
+/*.carta-container{
+  perspective: 700;
+}
+.carta{
+  color: #fff;
+  text-align: center;
+  margin:20px;
+  width: 300px;
+  height:300px;
+  position: relative;
+  transition: all 0.7s ease;
+  transform-style: preserve-3d;
+}
+
+.carta:hover{
+  transform: rotateY(180deg);
+}
+
+.front, .back{
+  background: red;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 300px;
+  backface-visibility: hidden;
+}
+
+.back{
+  transform: rotateY(180deg);
+}
+*/
