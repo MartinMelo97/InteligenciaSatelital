@@ -3,6 +3,7 @@
   <head>
     <meta charset='UTF-8'>
     <title>InteligenciaSatelital</title>
+    <link href='http://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet'>
     <link href='css/materialize.min.css' rel='stylesheet'>
     <link href='css/main.css' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Galada|Roboto+Slab' rel='stylesheet'>
@@ -10,14 +11,15 @@
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js'></script>
     <script src='js/materialize.min.js'></script>
     <script src='js/main.js'></script>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
   </head>
   <body>
-    <div class='nav orange darken-2'>
+    <div class='nav orange darken-2' style='z-index:50;'>
       <ul class='row' style='margin:0; float:right; width:100%'>
         <li class='lang col offset-s10 s1 white-text'>Español</li>
         <li class='lang col s1 white-text'>Inglés</li>
       </ul>
-      <nav style='background-color:rgba(255,255,255,.6) !important;'>
+      <nav style='background-color:rgba(255,255,255,.6) !important; z-index:50'>
         <div class='nav-wrapper hide-on-med-and-down' style='background-color: transparent !important;'>
           <a href='#'>
             <img alt='' class='padding-left' src='img/IS Logo.png'>
@@ -37,6 +39,31 @@
             </li>
             <li class='nav-li no-padding'>
               <a class='white-text red darken-2' href='#'>Contáctanos</a>
+            </li>
+          </ul>
+        </div>
+        <div class='nav-wrapper hide-on-med-and-up'>
+          <a class='brand-logo left' href='#'>
+            <img alt='' src='img/IS Logo.png' style='position:absolute; '>
+          </a>
+          <a class='button-collapse' data-activates='mobile' href='#'>
+            <i class='material-icons negro-text bigger'>menu</i>
+          </a>
+          <ul class='side-nav' id='mobile' style='z-index:10'>
+            <li class='negro-text'>
+              <a href='#'>Inicio</a>
+            </li>
+            <li class='negro-text'>
+              <a href='#'>Conócenos</a>
+            </li>
+            <li class='negro-tex'>
+              <a href='#'>Servicios</a>
+            </li>
+            <li class='negro-text'>
+              <a href='#'>Productos</a>
+            </li>
+            <li class='negro-text'>
+              <a href='#'>Contáctanos</a>
             </li>
           </ul>
         </div>

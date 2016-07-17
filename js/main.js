@@ -5,6 +5,7 @@ $(document).ready(function(){
 		transition:800
 
 	});
+	$(".button-collapse").sideNav();
 	/*$(".nav").css({ "background-color":"#333333",
 									"box-shadow":"none",
 									"height": "100px"
