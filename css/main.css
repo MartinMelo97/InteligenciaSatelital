@@ -8,7 +8,7 @@
   padding-top: 10px; }
 
 .padding-left {
-  padding-left: 15px; }
+  padding-left: 100px; }
 
 .padding-bottom {
   padding-bottom: 15px; }
@@ -24,6 +24,9 @@
 
 .small-margin {
   margin: 5px; }
+
+.top-space {
+  margin-top: 50px; }
 
 img.smaller {
   width: 60%; }
@@ -147,7 +150,7 @@ li:hover a {
   position: absolute; }
 
 .foote-page {
-  top: 110%;
+  bottom: -74% !important;
   height: 50px;
   line-height: 50px;
   color: #FFF;
@@ -162,5 +165,8 @@ li:hover a {
 .no-hover:hover {
   background-color: inherit;
   color: #333333; }
+
+.prod-cont {
+  padding: 50px; }
 
 /*# sourceMappingURL=main.css.map */

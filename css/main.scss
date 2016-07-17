@@ -93,7 +93,7 @@ li:hover a{
 }
 
 .foote-page{
-  top: 110%;
+  bottom: -74% !important;
   height:50px;
   line-height:50px;
   color: #FFF;
@@ -111,4 +111,7 @@ li:hover a{
 .no-hover:hover{
   background-color: inherit;
   color: #333333;
+}
+.prod-cont{
+  padding:50px;
 }

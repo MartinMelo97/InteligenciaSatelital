@@ -18,7 +18,7 @@
 			%nav{style:"background-color:rgba(255,255,255,.6) !important;"}
 				.nav-wrapper.hide-on-med-and-down{style:"background-color: transparent !important;"}
 					%a{href: "#"}
-						%img{:src => "img/IS Logo.png", :alt => ""}/
+						%img.padding-left{:src => "img/IS Logo.png", :alt => ""}/
 					%ul#nav-mobile.right
 						%li.nav-li.no-padding
 							%a.negro-text{href: "#"} Inicio
@@ -29,7 +29,7 @@
 						%li.nav-li.no-padding
 							%a.negro-text{href: "#"} Productos
 						%li.nav-li.no-padding
-							%a.negro-text{href: "#"} Contactos
+							%a.white-text.red.darken-2{href: "#"} Contactanos
 
 		.cover{style:"top: 2em;"}
 			.slider
@@ -49,6 +49,36 @@
 						.caption.left-align
 							%h1.blanco-bonito-text Productos
 							%h2.rojo-text ¡Localiza tu flota!
+
+		.cover{style:"top:74.5%"}
+			.prod-cont.row.top-space
+				.col.m4.s10.offset-s1
+					.card
+						.card-image.waves-effect.waves-light.waves-block
+							%img{:src => "img/gps_moto.jpg", :alt => "", style:"height:300px;"}/
+						.card-content
+							.card-title.negro-text GPS Motocicletas
+							%p 
+								%a{:href => "#"} Ver Mas
+							
+				.col.m4.s10.offset-s1
+					.card
+						.card-image.waves-effect.waves-light.waves-block
+							%img{:src => "img/gps_auto.jpg", :alt => "", style:"height:300px;"}/
+						.card-content
+							.card-title.negro-text GPS Vehículos
+							%p 
+								%a{:href => "#"} Ver Mas
+							
+				.col.m4.s10.offset-s1
+					.card
+						.card-image.waves-effect.waves-light.waves-block
+							%img{:src => "img/gps_personal.jpg", :alt => "", style:"height:300px;"}/
+						.card-content
+							.card-title.negro-text GPS Personal
+							%p 
+								%a{:href => "#"} Ver Mas
+							
 	
 		.foote-page 
 			%p Powered By: ActoSoft 2016
