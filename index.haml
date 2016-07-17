@@ -11,51 +11,44 @@
 		%script{src: "js/materialize.min.js"}
 		%script{src: "js/main.js"}
 	%body
-		%nav.nav
-			.nav-wrapper.orange.darken-4
-				%a{href: "#"}
-					%img{:src => "img/IS Logo.png", :alt => ""}/
-				%ul#nav-mobile.right.hide-on-med-and-down
-					%li.nav-li
-						%a{href: "#"} Inicio
-					%li.nav-li
-						%a{href: "#"} Conócenos
-					%li.nav-li
-						%a{href: "#"} Servicios
-					%li.nav-li
-						%a{href: "#"} Productos
-					%li.nav-li
-						%a{href: "#"} Contactos
-					%li.no-hover
-						%a.hiddentext{href: "#"} Some text
-					%li.no-hover
-						%a.hiddentext{href: "#"} Some text
-					%li.nav-li.no-hover
-						%a{href: "#"}
-							%img.flat-icons.smaller.padding-top{src: "img/Espanol.png"}
-					%li.nav-li.no-hover
-						%a{href: "#"}
-							%img.flat-icons.smaller.padding-top{src: "img/Ingles.png"}
+		.nav.orange.darken-2
+			%ul.row{style:"margin:0; float:right; width:100%"}
+				%li.lang.col.offset-s10.s1.white-text Español
+				%li.lang.col.s1.white-text Inglés
+			%nav{style:"background-color:rgba(255,255,255,.6) !important;"}
+				.nav-wrapper.hide-on-med-and-down{style:"background-color: transparent !important;"}
+					%a{href: "#"}
+						%img{:src => "img/IS Logo.png", :alt => ""}/
+					%ul#nav-mobile.right
+						%li.nav-li.no-padding
+							%a{href: "#"} Inicio
+						%li.nav-li.no-padding
+							%a{href: "#"} Conócenos
+						%li.nav-li.no-padding
+							%a{href: "#"} Servicios
+						%li.nav-li.no-padding
+							%a{href: "#"} Productos
+						%li.nav-li.no-padding
+							%a{href: "#"} Contactos
 
-		.cover{style:"top:3%;"}
+		.cover{style:"top: 2.45em;"}
 			.slider
 				%ul.slides{style:"height:70%;"}
 					%li
 						%img.responsive-img{src: "img/slider1.jpg", :alt => ""}
-						.caption.left-align{:style => "top:45%;"}
+						.caption.left-align
 							%h1.blanco-bonito-text Conócenos
 							%h2.rojo-text Conoce a I.S
 					%li
 						%img.responsive-img{src: "img/slider2.jpg", :alt => ""}
-						.caption.left-align{:style => "top:3px;"}
+						.caption.left-align
 							%h1.blanco-bonito-text Servicios
 							%h2.rojo-text Lo que ofrece I.S
 					%li
 						%img.responsive-img{src: "img/slider3.jpg", :alt => ""}
-						.caption.left-align{:style => "top:25%;"}
+						.caption.left-align
 							%h1.blanco-bonito-text Productos
 							%h2.rojo-text ¡Localiza tu flota!
-			}
 	
 		.foote-page 
 			%p Powered By: ActoSoft 2016

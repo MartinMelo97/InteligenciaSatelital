@@ -13,9 +13,12 @@ html, body{
 img{
 	max-height: 100%;
 }
-
-nav, .nav-wrapper{
+nav{
+  top:2.45em;
+}
+nav, .nav{
 	position:fixed;
+  width: 100%;
 	z-index:5;
 	transition: .4s;
 }
@@ -25,6 +28,12 @@ nav ul{
 .hidden-text:hover{
   background-color:inherit;
   color:inherit;
+}
+.nav li.lang{
+  width:auto;
+  font-size:1em;
+  padding:.4em !important;
+  padding-bottom:.6em !important;
 }
 nav ul li:hover{
   background-color:white;
@@ -54,7 +63,6 @@ li:hover a{
 .slider{
   position: absolute;
   height: 100% !important;
-  top: 7%;
 }
 
 .slider .slides li img{
