@@ -80,7 +80,7 @@ img {
   max-height: 100%; }
 
 nav {
-  top: 2.45em; }
+  top: 2.05em; }
 
 nav, .nav {
   position: fixed;
@@ -98,8 +98,8 @@ nav ul {
 .nav li.lang {
   width: auto;
   font-size: 1em;
-  padding: .4em !important;
-  padding-bottom: .6em !important; }
+  padding: .2em !important;
+  padding-bottom: .4em !important; }
 
 nav ul li:hover {
   background-color: white; }
