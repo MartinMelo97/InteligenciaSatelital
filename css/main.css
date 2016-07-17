@@ -105,7 +105,8 @@ nav ul li:hover {
   background-color: white; }
 
 li:hover a {
-  color: #E65100 !important; }
+  color: #fff !important;
+  background-color: #333333; }
 
 .galada {
   font-family: 'Galada', cursive !important; }
@@ -159,6 +160,7 @@ li:hover a {
   margin-top: 0px; }
 
 .no-hover:hover {
-  background-color: inherit; }
+  background-color: inherit;
+  color: #333333; }
 
 /*# sourceMappingURL=main.css.map */

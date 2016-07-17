@@ -40,7 +40,8 @@ nav ul li:hover{
 }
 li:hover a{
 
-  color: #E65100 !important;
+  color: #fff !important;
+  background-color: #333333;
 }
 
 //Fuentes
@@ -109,4 +110,5 @@ li:hover a{
 
 .no-hover:hover{
   background-color: inherit;
+  color: #333333;
 }
