@@ -34,13 +34,9 @@ nav ul{
   padding:.2em !important;
   padding-bottom:.4em !important;
 }
-nav ul li:hover{
-  background-color:white;
-}
-li:hover a{
-
-  color: #fff !important;
-  background-color: #333333;
+nav ul li:hover a.si{
+  background-color:#333333;
+  color: #F2F2F2 !important;
 }
 
 //Fuentes
@@ -70,9 +66,7 @@ li:hover a{
   background-repeat:no-repeat;
 }
 
-.hiddentext{
-  color: rgba(0,0,0,0);
-}
+
 
 .welcome{
   width: 100%;

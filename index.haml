@@ -24,23 +24,23 @@
 						%img.padding-left{:src => "img/Logo-Nuevo.png", :alt => "", style: "padding-bottom: 5px; position: fixed; width: 20%; margin-top: 1%;"}/
 					%ul#nav-mobile.right{style: "padding-top:1.5%;"}
 						%li.nav-li.no-padding
-							%a.negro-text{href: "#"} Inicio
-						%li.nav-li.no-hover
+							%a.negro-text.si{href: "#"} Inicio
+						%li.nav-li.hidden-text
 							%a.negro-text{href: "#"} &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 						%li.nav-li.no-padding
-							%a.negro-text{href: "#"} Conócenos
+							%a.negro-text.si{href: "#"} Conócenos
 						%li.nav-li.no-padding.hidden-text
 							%a.negro-text{href: "#"} &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 						%li.nav-li.no-padding
-							%a.negro-text{href: "#"} Servicios
+							%a.negro-text.si{href: "#"} Servicios
 						%li.nav-li.no-padding.hidden-text
 							%a.negro-text{href: "#"} &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 						%li.nav-li.no-padding
-							%a.negro-text{href: "#"} Productos
+							%a.negro-text.si{href: "#"} Productos
 						%li.nav-li.no-padding.hidden-text
 							%a.negro-text{href: "#"} &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 						%li.nav-li.no-padding
-							%a.negro-text{href: "#"} Servidor
+							%a.negro-text.si{href: "#"} Servidor
 						%li.nav-li.no-padding.hidden-text
 							%a.negro-text{href: "#"} &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 						%li.nav-li
@@ -65,22 +65,28 @@
 
 		.cover{style:"top: 2em;"}
 			.slider
-				%ul.slides{style:"height:70%;"}
+				%ul.slides{style:"height:80%;"}
 					%li
 						%img.responsive-img{src: "img/slider1.jpg", :alt => ""}
-						.caption.left-align
-							%h1.blanco-bonito-text Conócenos
-							%h2.rojo-text Conoce a I.S
+						.caption.left-align{style: "top:20%;"}
+							%h2.blanco-bonito-text.fuente-Sbold-It{style: "padding-left:5%;"} Inteligencia Satelital: 
+							%h3.rojo-text.fuente-Sbold-ItTu{style: "padding-left:0%; padding-top:10%;"} "Tu Solución en Seguridad y Rastreo"
+							
 					%li
 						%img.responsive-img{src: "img/slider2.jpg", :alt => ""}
-						.caption.left-align
-							%h1.blanco-bonito-text Servicios
-							%h2.rojo-text Lo que ofrece I.S
+						.caption.left-align{style: "top:20%; padding-left: 15%;"}
+							%h2.negro-text.fuente-Sbold-It 	¡Localiza tu flota!
+							
 					%li
 						%img.responsive-img{src: "img/slider3.jpg", :alt => ""}
-						.caption.left-align
-							%h1.blanco-bonito-text Productos
-							%h2.rojo-text ¡Localiza tu flota!
+						.caption.left-align{style: "top:20%; "}
+							%h2.blanco-bonito-text.fuente-Sbold-It "Gestiona y Analiza las rutas de tus activos"
+
+					%li
+						%img.responsive-img{src: "img/slider4.jpg", :alt => "", style: "opacity:0.7;"}
+						.caption.left-align{style: "top:20%; "}
+							%h2.negro-text.fuente-Sbold-It Contamos con la mas alta tecnología en rastreo y localización
+						
 
 		.cover{style:"top:74.5%"}
 			.prod-cont.row.top-space
