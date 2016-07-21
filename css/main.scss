@@ -118,17 +118,6 @@ li:hover a{
 .prod-cont{
   padding:50px;
 }
-.hover-img{
-  -webkit-filter:grayscale(100%);
-  -moz-filter:grayscale(100%);
-  filter:grayscale(100%);
-  transition: .4s;
-}
-.hover-img:hover{
-  -webkit-filter:grayscale(0%);
-  -moz-filter:grayscale(0%);
-  filter:grayscale(0%);
-}
 
 .carta-container{
   perspective: 700;
