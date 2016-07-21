@@ -17,31 +17,41 @@
 			%ul.row{style:"margin:0; float:right; width:100%"}
 				%li.lang.col.offset-s10.s1.white-text Español
 				%li.lang.col.s1.white-text Inglés
-			%nav{style:"background-color:rgba(255,255,255,.6) !important; z-index:50"}
-				.nav-wrapper.hide-on-med-and-down{style:"background-color: transparent !important;"}
+			%nav{style:"background-color:rgba(255,255,255,.6) !important; z-index:50; height:15%;"}
+				.nav-wrapper.hide-on-med-and-down{style:"background-color: transparent; !important;"}
 					%a{href: "#"}
-						%img.padding-left{:src => "img/Logo-Nuevo.png", :alt => "", style: "padding-bottom: 5px; position: fixed; width: 20%; margin-top: .5%;"}/
-					%ul#nav-mobile.right
+						%img.padding-left{:src => "img/Logo-Nuevo.png", :alt => "", style: "padding-bottom: 5px; position: fixed; width: 20%; margin-top: 1%;"}/
+					%ul#nav-mobile.right{style: "padding-top:1.5%;"}
 						%li.nav-li.no-padding
 							%a.negro-text{href: "#"} Inicio
+						%li.nav-li.no-hover
+							%a.negro-text{href: "#"} &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 						%li.nav-li.no-padding
 							%a.negro-text{href: "#"} Conócenos
+						%li.nav-li.no-padding.hidden-text
+							%a.negro-text{href: "#"} &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 						%li.nav-li.no-padding
 							%a.negro-text{href: "#"} Servicios
+						%li.nav-li.no-padding.hidden-text
+							%a.negro-text{href: "#"} &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 						%li.nav-li.no-padding
 							%a.negro-text{href: "#"} Productos
+						%li.nav-li.no-padding.hidden-text
+							%a.negro-text{href: "#"} &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 						%li.nav-li.no-padding
 							%a.negro-text{href: "#"} Servidor
-						%li.nav-li.no-padding
+						%li.nav-li.no-padding.hidden-text
+							%a.negro-text{href: "#"} &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+						%li.nav-li
 							%a.white-text.red.darken-2{href: "#"} Contáctanos
-				.nav-wrapper.hide-on-med-and-up
+				.nav-wrapper
 					%a.brand-logo.left{href: "#"}
-						%img{:src => "img/IS Logo.png", :alt => "", style:"position:absolute; "}/
+						%img{:src => "img/Logo-Nuevo.png", :alt => "", style:"position:absolute; "}/
 					%a.button-collapse{href:"#", "data-activates":"mobile"}
 						%i.material-icons.negro-text.bigger menu
 					%ul.side-nav{id:"mobile", style:"z-index:10"}
 						%li.negro-text
-							%a{:href => "#"} Inicio
+							%a{:href => "http://www.google.com.mx"} Inicio
 						%li.negro-text
 							%a{:href => "#"} Conócenos
 						%li.negro-tex
@@ -73,43 +83,44 @@
 
 		.cover{style:"top:74.5%"}
 			.prod-cont.row.top-space
+				.col.m1.s10.offset-s1
 				.col.m4.s10.offset-s1
-					.card
-						.card-image.waves-effect.waves-light.waves-block
+					.card{style: "width: 80%;"}
+						.card-image.waves-effct.waves-light.waves-block
 							.carta-container
 								.carta
 									.front
-										%img.hover-img{:src => "img/gps_moto.jpg", :alt => "", style:"height:300px;"}/
+										%img.hover-img{:src => "img/gps_moto.jpg", :alt => "", style:"height:200px;"}/
 									.back
-										%h4.padding-top Más información
+										%h5.padding-top Más información
 										%i.large.material-icons.topminus present_to_all
 						.card-content
 							.card-title.negro-text GPS Motocicletas
 							
 							
 				.col.m4.s10.offset-s1
-					.card
+					.card{style: "width: 80%;"}
 						.card-image.waves-effect.waves-light.waves-block
 							.carta-container
 								.carta
 									.front
 										%img.hover-img{:src => "img/gps_auto.jpg", :alt => "", style:"height:300px;"}/
 									.back
-										%h4.padding-top Más información
+										%h5.padding-top Más información
 										%i.large.material-icons.topminus present_to_all
 						.card-content
 							.card-title.negro-text GPS Vehículos
 							
 							
 				.col.m4.s10.offset-s1
-					.card
+					.card{style: "width: 80%;"}
 						.card-image.waves-effect.waves-light.waves-block
 							.carta-container
 								.carta
 									.front
 										%img.hover-img{:src => "img/gps_personal.jpg", :alt => "", style:"height:300px;"}/
 									.back
-										%h4.padding-top Más información
+										%h5.padding-top Más información
 										%i.large.material-icons.topminus present_to_all
 						.card-content
 							.card-title.negro-text GPS Personal
