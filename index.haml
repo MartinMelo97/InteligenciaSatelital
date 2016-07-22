@@ -14,20 +14,27 @@
 		%script{src: "js/main.js"}
 		%meta{name:"viewport", content:"width=device-width, initial-scale=1.0"}
 	%body
-		%ul.dropdown-content#dropdown1
+		%ul.dropdown-content#dropdown1{style:"background-color:rgba(255,255,255,.7) !important;"}
 			%li
-				%a{:href => "#!"} GESTION DE FLOTAS
-				%a{:href => "#!"} SEGURIDAD PERSONAL
-				%a{:href => "#!"} SEGUIMIENTO DE PERSONA
+				%a.grey-text.text-darken-4{:href => "#!"} GESTION DE FLOTAS
+			%li
+				%a.grey-text.text-darken-4{:href => "#!"} SEGURIDAD PERSONAL
+			%li
+				%a.grey-text.text-darken-4{:href => "#!"} SEGUIMIENTO DE PERSONAL
 
-		%ul.dropdown-content#dropdown2
+		%ul.dropdown-content#dropdown2{style:"background-color:rgba(255,255,255,.7) !important;"}
 			%li
-				%a{:href => "#!"} GPS TRACKER
-				%a{:href => "#!"} SYRUS SY2210
-				%a{:href => "#!"} MEITRACK VT310
-				%a{:href => "#!"} GPS TRACKER VEHICULOS 
-				%a{:href => "#!"} MINI TRACKER
-				%a{:href => "#!"} TRACKIMO
+				%a.grey-text.text-darken-4{:href => "#!"} GPS TRACKER
+			%li
+				%a.grey-text.text-darken-4{:href => "#!"} SYRUS SY2210
+			%li
+				%a.grey-text.text-darken-4{:href => "#!"} MEITRACK VT310
+			%li
+				%a.grey-text.text-darken-4{:href => "#!"} GPS TRACKER VEHICULOS 
+			%li
+				%a.grey-text.text-darken-4{:href => "#!"} MINI TRACKER
+			%li
+				%a.grey-text.text-darken-4{:href => "#!"} TRACKIMO
 
 		.nav.orange.darken-2{style:"z-index:50;"}
 			%ul.row{style:"margin:0; float:right; width:100%"}
@@ -39,7 +46,7 @@
 						%img.padding-left{:src => "img/Logo-Nuevo.png", :alt => "", style: "padding-bottom: 5px; position: fixed; width: 20%; margin-top:0.3%;"}/
 					%ul#nav-mobile.right{style: "padding-top:1.5%;"}
 						%li.nav-li.no-padding
-							%a.negro-text.si{href: "#"} Inicio
+							%a.negro-text.si{href: "#"} INICIO
 						%li.nav-li.hidden-text
 							%a.negro-text{href: "#"} &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 						%li.nav-li.no-padding
@@ -59,7 +66,7 @@
 						%li.nav-li.no-padding.hidden-text
 							%a.negro-text{href: "#"} &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 						%li.nav-li
-							%a.white-text.red.darken-2{href: "#"} Contáctanos
+							%a.white-text.red.darken-2{href: "#"} CONTACTO
 				.nav-wrapper
 					%a.brand-logo.left{href: "#"}
 						%img{:src => "img/Logo-Nuevo.png", :alt => "", style:"position:absolute; "}/
