@@ -6,6 +6,11 @@ $(document).ready(function(){
 
 	});
 	$(".button-collapse").sideNav();
+	$(".dropdown-button").dropdown({
+		hover: true,
+		belowOrigin: true,
+		constrain_width: false
+	});
 	/*$(".nav").css({ "background-color":"#333333",
 									"box-shadow":"none",
 									"height": "100px"

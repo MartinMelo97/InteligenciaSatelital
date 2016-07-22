@@ -14,6 +14,21 @@
 		%script{src: "js/main.js"}
 		%meta{name:"viewport", content:"width=device-width, initial-scale=1.0"}
 	%body
+		%ul.dropdown-content#dropdown1
+			%li
+				%a{:href => "#!"} GESTION DE FLOTAS
+				%a{:href => "#!"} SEGURIDAD PERSONAL
+				%a{:href => "#!"} SEGUIMIENTO DE PERSONA
+
+		%ul.dropdown-content#dropdown2
+			%li
+				%a{:href => "#!"} GPS TRACKER
+				%a{:href => "#!"} SYRUS SY2210
+				%a{:href => "#!"} MEITRACK VT310
+				%a{:href => "#!"} GPS TRACKER VEHICULOS 
+				%a{:href => "#!"} MINI TRACKER
+				%a{:href => "#!"} TRACKIMO
+
 		.nav.orange.darken-2{style:"z-index:50;"}
 			%ul.row{style:"margin:0; float:right; width:100%"}
 				%li.lang.col.offset-s10.s1.white-text Español
@@ -26,23 +41,23 @@
 						%li.nav-li.no-padding
 							%a.negro-text.si{href: "#"} Inicio
 						%li.nav-li.hidden-text
-							%a.negro-text{href: "#"} &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+							%a.negro-text{href: "#"} &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 						%li.nav-li.no-padding
-							%a.negro-text.si{href: "#"} Conócenos
+							%a.negro-text.si.dropdown-button{href: "#","data-activates":"dropdown1"} SOLUCIONES INDUSTRIALES
 						%li.nav-li.no-padding.hidden-text
-							%a.negro-text{href: "#"} &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+							%a.negro-text{href: "#"} &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 						%li.nav-li.no-padding
-							%a.negro-text.si{href: "#"} Servicios
+							%a.negro-text.si.dropdown-button{href: "#","data-activates":"dropdown2"} DISPOSITIVOS
 						%li.nav-li.no-padding.hidden-text
-							%a.negro-text{href: "#"} &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+							%a.negro-text{href: "#"} &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 						%li.nav-li.no-padding
-							%a.negro-text.si{href: "#"} Productos
+							%a.negro-text.si{href: "#"} SERVIDOR 
 						%li.nav-li.no-padding.hidden-text
-							%a.negro-text{href: "#"} &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+							%a.negro-text{href: "#"} &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 						%li.nav-li.no-padding
-							%a.negro-text.si{href: "#"} Servidor
+							%a.negro-text.si{href: "#"} EMPRESA
 						%li.nav-li.no-padding.hidden-text
-							%a.negro-text{href: "#"} &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+							%a.negro-text{href: "#"} &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 						%li.nav-li
 							%a.white-text.red.darken-2{href: "#"} Contáctanos
 				.nav-wrapper
@@ -91,7 +106,7 @@
 		.cover{style:"top:74.5%;"}
 			.blanco-bonito
 				%h3.negro-text.fuente-bold.padding-top-2.padding-bottom.padding-left Soluciones en Seguridad 
-			.prod-cont.row.top-space{style: "background-image: url(img/back2.jpg); padding-top: -5%;"}
+			.prod-cont.row{style: "background-image: url(img/back2.jpg); padding-top: -5%;"}
 				.col.m3.s10.offset-s1
 					.card{style: "width: 80%;"}
 						.card-image.waves-effct.waves-light.waves-block
@@ -163,7 +178,12 @@
 					%h2{style: 'font-family: Proxima N W01 X Cd Smbd;'} Soporte
 				.col.s12
 					%p.justify 
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore numquam dicta, maxime veniam! Delectus nesciunt corrupti, cupiditate ab, quisquam vero totam, minus enim eveniet temporibus expedita voluptatem optio aut voluptatibus.				
+						Con un equipo de
+						profesionistas, estamos
+						a su disposición para
+						resolver cualquier
+						problema que llegara a
+						tener.				
 			.col.m4.s11.offset-s1.top-space				
 				.col.s12
 					%img{:src => "img/monitoreo-icon.png"}
@@ -171,7 +191,9 @@
 					%h2{style: 'font-family: Proxima N W01 X Cd Smbd;'} Monitoreo IS
 				.col.s12
 					%p.justify 
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore numquam dicta, maxime veniam! Delectus nesciunt corrupti, cupiditate ab, quisquam vero totam, minus enim eveniet temporibus expedita voluptatem optio aut voluptatibus.
+						Rastreo en tiempo real
+						las 24 horas del día los
+						365 días del año.
 			.col.m4.s11.offset-s1.top-space
 				.col.s12
 					%img{:src => "img/gps-icon.png"}
@@ -179,7 +201,9 @@
 					%h2{style: 'font-family: Proxima N W01 X Cd Smbd;'} GPS
 				.col.s12
 					%p.justify 
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore numquam dicta, maxime veniam! Delectus nesciunt corrupti, cupiditate ab, quisquam vero totam, minus enim eveniet temporibus expedita voluptatem optio aut voluptatibus.			
+						La más alta tecnología
+						en rastreo y ubicación
+						de activos.	
 	
 		%footer.page-footer.negro{style:"width:100%;"}
 			.container
