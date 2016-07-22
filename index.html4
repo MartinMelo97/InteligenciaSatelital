@@ -132,9 +132,9 @@
                   <div class='front'>
                     <img alt='' class='hover-img' src='img/transporte2.jpg' style='height:200px;'>
                   </div>
-                  <div class='back activator'>
+                  <div class='back'>
                     <h5 class='padding-top'>Más información</h5>
-                    <i class='medium material-icons topminus'>present_to_all</i>
+                    <i class='large material-icons topminus'>present_to_all</i>
                   </div>
                 </div>
               </div>
@@ -142,10 +142,6 @@
             <div class='card-content'>
               <div class='card-title negro-text'>Transporte</div>
             </div>
-            <div class='card-reveal'>
-              <span class='card-title negro-text fuente-Sbold rojo-text'>Transporte</span>
-              <p class='left'>Gestiona tus flotas y mediante el rastreo, gestión y localización de todos tus activos</p>
-            </div>
           </div>
         </div>
         <div class='col m3 s10 offset-s1'>
@@ -154,11 +150,11 @@
               <div class='carta-container'>
                 <div class='carta'>
                   <div class='front'>
-                    <img alt='' class='hover-img' src='img/seguridad3.jpg' style='height:200px;'>
+                    <img alt='' class='hover-img' src='img/seguridad2.jpg' style='height:200px;'>
                   </div>
-                  <div class='back activator'>
+                  <div class='back'>
                     <h5 class='padding-top'>Más información</h5>
-                    <i class='medium material-icons topminus'>present_to_all</i>
+                    <i class='large material-icons topminus'>present_to_all</i>
                   </div>
                 </div>
               </div>
@@ -166,10 +162,6 @@
             <div class='card-content'>
               <div class='card-title negro-text'>Seguridad</div>
             </div>
-            <div class='card-reveal'>
-              <span class='card-title negro-text fuente-Sbold rojo-text'>Seguridad</span>
-              <p class='left'>Prevee cualquier percance que pueda ocurrir teniendo ubicados todos tus activos</p>
-            </div>
           </div>
         </div>
         <div class='col m3 s10 offset-s1'>
@@ -178,11 +170,11 @@
               <div class='carta-container'>
                 <div class='carta'>
                   <div class='front'>
-                    <img alt='' class='hover-img' src='img/pesada3.jpg' style='height:200px;'>
+                    <img alt='' class='hover-img' src='img/gps_personal.jpg' style='height:200px;'>
                   </div>
-                  <div class='back activator'>
+                  <div class='back'>
                     <h5 class='padding-top'>Más información</h5>
-                    <i class='medium material-icons topminus'>present_to_all</i>
+                    <i class='large material-icons topminus'>present_to_all</i>
                   </div>
                 </div>
               </div>
@@ -190,10 +182,6 @@
             <div class='card-content'>
               <div class='card-title negro-text'>Equipo Pesado</div>
             </div>
-            <div class='card-reveal'>
-              <span class='card-title negro-text fuente-Sbold rojo-text'>Equipo Pesado</span>
-              <p class='left'>Asegura Equipo costoso y ten la tranquilidad de saber en donde están cada uno de ellos</p>
-            </div>
           </div>
         </div>
         <div class='col m3 s10 offset-s1'>
@@ -202,21 +190,17 @@
               <div class='carta-container'>
                 <div class='carta'>
                   <div class='front'>
-                    <img alt='' class='hover-img' src='img/masproductos	.jpg' style='height:200px;'>
+                    <img alt='' class='hover-img' src='img/gps_personal.jpg' style='height:200px;'>
                   </div>
-                  <div class='back activator'>
+                  <div class='back'>
                     <h5 class='padding-top'>Más información</h5>
-                    <i class='medium material-icons topminus'>present_to_all</i>
+                    <i class='large material-icons topminus'>present_to_all</i>
                   </div>
                 </div>
               </div>
             </div>
             <div class='card-content'>
               <div class='card-title negro-text'>Más productos</div>
-            </div>
-            <div class='card-reveal'>
-              <span class='card-title negro-text fuente-Sbold rojo-text'>Más productos</span>
-              <p class='left'>Conoce todos los servicios en los cuáles podríamos ayudarte</p>
             </div>
           </div>
         </div>
