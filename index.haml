@@ -175,8 +175,8 @@
 
 				.row
 					.col.m12.s10.offset-s1
-						%h4.center Ponemos a su disposición todos nuestros servicios 
-						%h4.center dándole la solución adecuada que usted necesita
+						%h3.center.fuente-bold.blanco-text{style: "display: block;"} Ponemos a su disposición todos nuestros servicios 
+						%h3.center.fuente-bold{style: "display: block;"} dándole la solución adecuada que usted necesita
 		
 		.cover.blanco{style: "top:184%;"}
 			%h3.negro-texto.justify Inteligencia Satelital les ofrece:
@@ -215,17 +215,19 @@
 						en rastreo y ubicación
 						de activos.	
 	
-		%footer.page-footer.negro{style:"width:100%;"}
-			.container
+		%footer.page-footer.grey.darken-3{style:"width:100%;"}
+			.container{style:"width:85%;"}
 				.row{style:"width:"}
 					.col.l6.s12
-						%h5 Contacto
+						%h5.rojo-text Contacto
 						%p.grey-text.text-lighten-4.justify
 							Ciudad de México
-						%p.grey-text.text-lighten-4.justify
-							Tel: (55) 6349 1008
-						%p.grey-text.text-lighten-4.justify{style: "text-decoration: underline;"}
-							Mail: direccion@inteligenciasatelital.com
+						%p.rojo-text.text-lighten-4.justify
+							Tel: 
+							%span.grey-text.text-lighten-4.justify (55) 6349 1008
+						%p.rojo-text.text-lighten-4.justify
+							Mail: 
+							%span.grey-text.text-lighten-4.justify{style: "text-decoration: underline;"} direccion@inteligenciasatelital.com
 						
 						%a{href: "#"}
 							%p.grey-text.text-lighten-4.justify
@@ -239,9 +241,10 @@
 					.col.l2.s12
 						%a{href: "#"}
 							%img.responsive-img{src: "img/google-plus.png", style:"padding-top: 50%;"}
+			}
             		
            
-			.footer-copyright
+			.footer-copyright.negro
 				.container
 					Powered By: ActoSoft
 
