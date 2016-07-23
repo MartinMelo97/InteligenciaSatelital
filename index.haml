@@ -11,6 +11,7 @@
 		%link{:rel => "stylesheet", :href=> "https://www.fuelcdn.com/fonts/proxima-nova.css"}
 		%script{src: "https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"}
 		%script{src: "js/materialize.min.js"}
+		%script{src: "js/facebookapi.js"}
 		%script{src: "js/main.js"}
 		%meta{name:"viewport", content:"width=device-width, initial-scale=1.0"}
 	%body
@@ -110,81 +111,83 @@
 							%h2.negro-text.fuente-Sbold-It Contamos con la mas alta tecnología en rastreo y localización
 						
 
-		.cover{style:"top:74.5%;"}
-			.blanco-bonito
-				%h3.negro-text.fuente-bold.padding-top-2.padding-bottom.padding-left Soluciones en Seguridad 
-			.prod-cont.row{style: "background-image: url(img/back2.jpg); padding-top: -5%;"}
-				.col.m3.s10.offset-s1
-					.card{style: "width: 80%;"}
-						.card-image.waves-effct.waves-light.waves-block
-							.carta-container
-								.carta
-									.front
-										%img.hover-img{:src => "img/transporte2.jpg", :alt => "", style:"height:200px;"}/
-									.back.activator
-										%h5.padding-top Más información
-										%i.medium.material-icons.topminus present_to_all
-						.card-content
-							.card-title.rojo-text Transporte
-							%p.left{style: "padding-top: 6%; padding-bottom: 6%;"} Gestiona tus flotas y mediante el rastreo, gestión y localización de todos tus activos
-							
-				.col.m3.s10.offset-s1
-					.card{style: "width: 80%;"}
-						.card-image.waves-effect.waves-light.waves-block
-							.carta-container
-								.carta
-									.front
-										%img.hover-img{:src => "img/seguridad3.jpg", :alt => "", style:"height:200px;"}/
-									.back.activator
-										%h5.padding-top Más información
-										%i.medium.material-icons.topminus present_to_all
-						.card-content
-							.card-title.rojo-text Seguridad
-							%p.left Prevee cualquier percance que pueda ocurrir teniendo ubicados todos tus activos
-							
-				.col.m3.s10.offset-s1
-					.card{style: "width: 80%;"}
-						.card-image.waves-effect.waves-light.waves-block
-							.carta-container
-								.carta
-									.front
-										%img.hover-img{:src => "img/pesada3.jpg", :alt => "", style:"height:200px;"}/
-									.back.activator
-										%h5.padding-top Más información
-										%i.medium.material-icons.topminus present_to_all
-						.card-content
-							.card-title.rojo-text Equipo Pesado
-							%p.left{style: "padding-top: 6%; padding-bottom: 6%;"} Asegura Equipo costoso y ten la tranquilidad de saber en donde están cada uno de ellos		
-							%br
+		.cover{style:"top:74.7%;"}
+			.blanco
+				%h4.negro-text.fuente-bold.padding-top-2.padding-left Soluciones en Seguridad 
+			.prod-cont{style: "background-image: url(img/back2.jpg);"}
+				.row
+					.col.m3.s10.offset-s1
+						.card{style: "width: 80%;"}
+							.card-image.waves-effct.waves-light.waves-block
+								.carta-container
+									.carta
+										.front
+											%img.hover-img{:src => "img/transporte2.jpg", :alt => "", style:"height:200px;"}/
+										.back.activator
+											%h5.padding-top Más información
+											%i.medium.material-icons.topminus present_to_all
+							.card-content
+								.card-title.rojo-text Transporte
+								%p.left{style: "padding-top: 6%; padding-bottom: 6%;"} Gestiona tus flotas y mediante el rastreo, gestión y localización de todos tus activos
 								
-											
+					.col.m3.s10.offset-s1
+						.card{style: "width: 80%;"}
+							.card-image.waves-effect.waves-light.waves-block
+								.carta-container
+									.carta
+										.front
+											%img.hover-img{:src => "img/seguridad3.jpg", :alt => "", style:"height:200px;"}/
+										.back.activator
+											%h5.padding-top Más información
+											%i.medium.material-icons.topminus present_to_all
+							.card-content
+								.card-title.rojo-text Seguridad
+								%p.left Prevee cualquier percance que pueda ocurrir teniendo ubicados todos tus activos
+								
+					.col.m3.s10.offset-s1
+						.card{style: "width: 80%;"}
+							.card-image.waves-effect.waves-light.waves-block
+								.carta-container
+									.carta
+										.front
+											%img.hover-img{:src => "img/pesada3.jpg", :alt => "", style:"height:200px;"}/
+										.back.activator
+											%h5.padding-top Más información
+											%i.medium.material-icons.topminus present_to_all
+							.card-content
+								.card-title.rojo-text Equipo Pesado
+								%p.left{style: "padding-top: 6%; padding-bottom: 6%;"} Asegura Equipo costoso y ten la tranquilidad de saber en donde están cada uno de ellos		
+								%br							
 
-				.col.m3.s10.offset-s1
-					.card{style: "width: 80%;"}
-						.card-image.waves-effect.waves-light.waves-block
-							.carta-container
-								.carta
-									.front
-										%img.hover-img{:src => "img/masproductos	.jpg", :alt => "", style:"height:200px;"}/
-									.back.activator
-										%h5.padding-top Más información
-										%i.medium.material-icons.topminus present_to_all
-						.card-content
-							.card-title.rojo-text Más productos
-							%p.left{style: "padding-top: 12%; padding-bottom: 12%;"} Conoce todos los servicios en los cuáles podríamos ayudarte
+					.col.m3.s10.offset-s1
+						.card{style: "width: 80%;"}
+							.card-image.waves-effect.waves-light.waves-block
+								.carta-container
+									.carta
+										.front
+											%img.hover-img{:src => "img/masproductos	.jpg", :alt => "", style:"height:200px;"}/
+										.back.activator
+											%h5.padding-top Más información
+											%i.medium.material-icons.topminus present_to_all
+							.card-content
+								.card-title.rojo-text Más productos
+								%p.left{style: "padding-top: 12%; padding-bottom: 12%;"} Conoce todos los servicios en los cuáles podríamos ayudarte
 
+				.row
+					.col.m12.s10.offset-s1
+						%h4.center Ponemos a su disposición todos nuestros servicios 
+						%h4.center dándole la solución adecuada que usted necesita
 		
-		.cover.blanco-bonito.negro-text{style: "top:170%;"}
-			%h3.center Ponemos a su disposición todos nuestros servicios dándole la solución adecuada que usted necesita
-		.cover.green.lighten-4.row{style:"top:190%; padding:80px; text-align:center;"}
-			%h1.negro-texto.justify{style: 'font-family: Proxima N W01 Cd  !important; background: #ffffff;'} Inteligencia Satelital les ofrece:
+		.cover.blanco{style: "top:184%;"}
+			%h3.negro-texto.justify Inteligencia Satelital les ofrece:
+		.cover.green.lighten-4.row{style:"top:197%; padding:3%; text-align:center;"}
 			.col.m4.s11.offset-s1.top-space
 				.col.s12
 					%img{:src => "img/soporte-icon.png"}
 				.col.s12
 					%h2{style: 'font-family: Proxima N W01 X Cd Smbd;'} Soporte
 				.col.s12
-					%p.justify 
+					%p.justify.fuente-Sbold-It
 						Con un equipo de
 						profesionistas, estamos
 						a su disposición para
@@ -197,7 +200,7 @@
 				.col.s12
 					%h2{style: 'font-family: Proxima N W01 X Cd Smbd;'} Monitoreo IS
 				.col.s12
-					%p.justify 
+					%p.justify.fuente-Sbold-It
 						Rastreo en tiempo real
 						las 24 horas del día los
 						365 días del año.
@@ -207,7 +210,7 @@
 				.col.s12
 					%h2{style: 'font-family: Proxima N W01 X Cd Smbd;'} GPS
 				.col.s12
-					%p.justify 
+					%p.justify.fuente-Sbold-It 
 						La más alta tecnología
 						en rastreo y ubicación
 						de activos.	
@@ -232,9 +235,8 @@
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					.col.l3.s12
 						%h5 Contacto
-						%p.grey-text.text-lighten-4.justify
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            		
+           
 			.footer-copyright
 				.container
 					Powered By: ActoSoft

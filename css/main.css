@@ -106,6 +106,12 @@ i.bigger {
 .blanco-bonito-text {
   color: #F2F2F2 !important; }
 
+.blanco {
+  background-color: #FFFFFF !important; }
+
+.blanco-text {
+  color: #FFFFFF !important; }
+
 html, body {
   margin: 0px !important;
   padding: 0px !important;
