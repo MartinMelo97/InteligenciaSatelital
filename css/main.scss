@@ -145,3 +145,24 @@ nav ul li:hover a.si{
 .topminus{
   top: -50%;
 }
+
+.ancla{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0,0,0,0.65);
+    color: #FFF;
+    cursor: pointer;
+    text-align: center;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    padding-top: 6px;
+    display: none;
+    z-index: 999;
+    transition-duration: .2s;
+    transition-property: background-color;
+}
+
+.ancla:hover{
+  background-color: #E8504B;
+}
