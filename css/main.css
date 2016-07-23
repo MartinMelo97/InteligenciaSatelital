@@ -256,4 +256,13 @@ nav ul li:hover a.si {
 .ancla:hover {
   background-color: #E8504B; }
 
+.fuente-normals {
+  font-size: 1em; }
+
+.fuente-medium {
+  font-size: 1.5em; }
+
+.fuente-large {
+  font-size: 2em; }
+
 /*# sourceMappingURL=main.css.map */
