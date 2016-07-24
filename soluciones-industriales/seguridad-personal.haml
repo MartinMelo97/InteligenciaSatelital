@@ -2,40 +2,40 @@
 %html{:lang => "es"}
 	%head
 		%meta{:charset => "UTF-8"}
-		%title Soluciones Industriales
+		%title Seguridad Personal
 		%link{:rel => "stylesheet", :href => "https://fonts.googleapis.com/icon?family=Material+Icons"}/
-		%link{:rel => "stylesheet", :href => "css/materialize.min.css"}
-		%link{:rel => "stylesheet", :href => "css/main.css"}
+		%link{:rel => "stylesheet", :href => "../css/materialize.min.css"}
+		%link{:rel => "stylesheet", :href => "../css/main.css"}
 		%link{:rel => "stylesheet", :href => "https://fonts.googleapis.com/css?family=Galada|Roboto+Slab"}
-		%link{:rel => "icon", :href => "img/favicon-large.png", :type => "image/x-icon"}
+		%link{:rel => "icon", :href => "../img/favicon-large.png", :type => "image/x-icon"}
 		%link{:rel => "stylesheet", :href=> "https://www.fuelcdn.com/fonts/proxima-nova.css"}
 		%script{src: "https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"}
-		%script{src: "js/materialize.min.js"}
-		%script{src: "js/facebookapi.js"}
-		%script{src: "js/main.js"}
+		%script{src: "../js/materialize.min.js"}
+		%script{src: "../js/facebookapi.js"}
+		%script{src: "../js/main.js"}
 		%meta{name:"viewport", content:"width=device-width, initial-scale=1.0"}
 	%body
 		%ul.dropdown-content#dropdown1{style:"background-color:rgba(255,255,255,.7) !important;"}
 			%li
-				%a.grey-text.text-darken-4{:href => "soluciones-industriales/gestion-de-flotas.html"} GESTION DE FLOTAS
+				%a.grey-text.text-darken-4{:href => "gestion-de-flotas.html"} GESTION DE FLOTAS
 			%li
-				%a.grey-text.text-darken-4{:href => "soluciones-industriales/seguridad-personal.html"} SEGURIDAD PERSONAL
+				%a.grey-text.text-darken-4{:href => "seguridad-personal.html"} SEGURIDAD PERSONAL
 			%li
-				%a.grey-text.text-darken-4{:href => "soluciones-industriales/seguimiento-de-personal.html"} SEGUIMIENTO DE PERSONAL
+				%a.grey-text.text-darken-4{:href => "seguimiento-de-personal.html"} SEGUIMIENTO DE PERSONAL
 
 		%ul.dropdown-content#dropdown2{style:"background-color:rgba(255,255,255,.7) !important;"}
 			%li
-				%a.grey-text.text-darken-4{:href => "dispositivos/gps-tracker.html"} GPS TRACKER
+				%a.grey-text.text-darken-4{:href => "../dispositivos/gps-tracker.html"} GPS TRACKER
 			%li
-				%a.grey-text.text-darken-4{:href => "dispositivos/syrus-sy2210.html"} SYRUS SY2210
+				%a.grey-text.text-darken-4{:href => "../dispositivos/syrus-sy2210.html"} SYRUS SY2210
 			%li
-				%a.grey-text.text-darken-4{:href => "dispositivos/meitrack-vt310.html"} MEITRACK VT310
+				%a.grey-text.text-darken-4{:href => "../dispositivos/meitrack-vt310.html"} MEITRACK VT310
 			%li
-				%a.grey-text.text-darken-4{:href => "dispositivos/gps-tracker-vehiculos.html"} GPS TRACKER VEHICULOS 
+				%a.grey-text.text-darken-4{:href => "../dispositivos/gps-tracker-vehiculos.html"} GPS TRACKER VEHICULOS 
 			%li
-				%a.grey-text.text-darken-4{:href => "dispositivos/mini-tracker.html"} MINI TRACKER
+				%a.grey-text.text-darken-4{:href => "../dispositivos/mini-tracker.html"} MINI TRACKER
 			%li
-				%a.grey-text.text-darken-4{:href => "dispositivos/trackimo.html"} TRACKIMO
+				%a.grey-text.text-darken-4{:href => "../dispositivos/trackimo.html"} TRACKIMO
 
 		.nav.orange.darken-2{style:"z-index:50;"}
 			%ul.row{style:"margin:0; float:right; width:100%"}
@@ -43,170 +43,121 @@
 				%li.lang.col.s1.white-text Inglés
 			%nav{style:"background-color:rgba(255,255,255,.6) !important; z-index:50; height:15%;"}
 				.nav-wrapper.hide-on-med-and-down{style:"background-color: transparent; !important;"}
-					%a{href: "#"}
-						%img.padding-left{:src => "img/Logo-Nuevo.png", :alt => "", style: "padding-bottom: 5px; position: fixed; width: 20%; margin-top:0.3%;"}/
+					%a{href: "../index.html"}
+						%img.padding-left{:src => "../img/Logo-Nuevo.png", :alt => "", style: "padding-bottom: 5px; position: fixed; width: 20%; margin-top:0.3%;"}/
 					%ul#nav-mobile.right{style: "padding-top:1.5%;"}
 						%li.nav-li.no-padding
-							%a.negro-text.si.fuente-normals.fuente-Sbold{href: "index.html"} INICIO
+							%a.negro-text.si.fuente-normals.fuente-Sbold{href: "../index.html"} INICIO
 						%li.nav-li.hidden-text
 							%a.negro-text{href: "#"} &nbsp&nbsp&nbsp&nbsp&nbsp
 						%li.nav-li.no-padding
-							%a.negro-text.si.dropdown-button.fuente-normals.fuente-Sbold{href: "soluciones-industriales.html","data-activates":"dropdown1"} SOLUCIONES INDUSTRIALES
+							%a.negro-text.si.dropdown-button.fuente-normals.fuente-Sbold{href: "../soluciones-industriales.html","data-activates":"dropdown1"} SOLUCIONES INDUSTRIALES
 						%li.nav-li.no-padding.hidden-text
 							%a.negro-text{href: "#"} &nbsp&nbsp&nbsp&nbsp&nbsp
 						%li.nav-li.no-padding
-							%a.negro-text.si.dropdown-button.fuente-normals.fuente-Sbold{href: "dispositivos.html","data-activates":"dropdown2"} DISPOSITIVOS
+							%a.negro-text.si.dropdown-button.fuente-normals.fuente-Sbold{href: "../dispositivos.html","data-activates":"dropdown2"} DISPOSITIVOS
 						%li.nav-li.no-padding.hidden-text
 							%a.negro-text{href: "#"} &nbsp&nbsp&nbsp&nbsp&nbsp
 						%li.nav-li.no-padding
-							%a.negro-text.si.fuente-normals.fuente-Sbold{href: "servidor.html"} SERVIDOR 
+							%a.negro-text.si.fuente-normals.fuente-Sbold{href: "../servidor.html"} SERVIDOR 
 						%li.nav-li.no-padding.hidden-text
 							%a.negro-text{href: "#"} &nbsp&nbsp&nbsp&nbsp&nbsp
 						%li.nav-li.no-padding
-							%a.negro-text.si.fuente-normals.fuente-Sbold{href: "empresa.html"} EMPRESA
+							%a.negro-text.si.fuente-normals.fuente-Sbold{href: "../empresa.html"} EMPRESA
 						%li.nav-li.no-padding.hidden-text
 							%a.negro-text{href: "#"} &nbsp&nbsp&nbsp&nbsp&nbsp
 						%li.nav-li
-							%a.white-text.red.darken-2.fuente-normals.fuente-Sbold{href: "contacto.html"} CONTACTO
+							%a.white-text.red.darken-2.fuente-normals.fuente-Sbold{href: "../contacto../.html"} CONTACTO
 				.nav-wrapper
 					%a.brand-logo.left{href: "#"}
-						%img{:src => "img/Logo-Nuevo.png", :alt => "", style:"position:absolute; "}/
+						%img{:src => "../img/Logo-Nuevo.png", :alt => "", style:"position:absolute; "}/
 					%a.button-collapse{href:"#", "data-activates":"mobile"}
 						%i.material-icons.negro-text.bigger menu
 					%ul.side-nav{id:"mobile", style:"z-index:10"}
 						%li.negro-text
-							%a{:href => "index.html"} Inicio
+							%a{:href => "../index.html"} Inicio
 						%li.negro-text
-							%a{:href => "soluciones-industriales.html"} Soluciones Industriales
+							%a{:href => "../soluciones-industriales.html"} Soluciones Industriales
 						%li.negro-tex
-							%a{:href => "dispositivos.html"} Dispositivos
+							%a{:href => "../dispositivos.html"} Dispositivos
 						%li.negro-text
-							%a{:href => "servidor.html"} Servidor
+							%a{:href => "../servidor.html"} Servidor
 						%li.negro-text
-							%a{:href => "empresa.html"} Empresa
+							%a{:href => "../empresa.html"} Empresa
 						%li.negro-text
-							%a{:href => "contacto.html"} Contacto
+							%a{:href => "../contacto.html"} Contacto
 
 		.cover{style: "top: 20%;"}
-			%h2.center.rojo-text.fuente-bold-It Soluciones Industriales
+			%h2.center.rojo-text.fuente-bold-It Soluciones en Seguridad Personal
+		.cover.grey.lighten-2{style:"top:35%;"}
 			.container
-				.row
+				.row{style:"padding-top:5%;"}
 					.col.l3.s12
 						.card
-
-							.card-image
-								%a{href: "#"}
-									%img.responsive-img{src: "img/transporte.jpg"}
-									%h6.center.negro-text.fuente-Sbold Transporte
+							.card-image.waves-effct.waves-light.waves-block
+								.carta-container2
+									.carta2
+										.front2
+											%img.responsive-img{src: "../img/infantil.jpg"}
+										.back2
+											%a.blanco-text{href: "#"}
+												%h6.padding-top Más información
+												%i.medium.material-icons.topminus present_to_all
+									%h6.center.negro-text.fuente-Sbold Protección Infantil
 					.col.l3.s12
 						.card
-
-							.card-image
-								%a{href: "#"}
-									%img.responsive-img{src: "img/gobierno.jpg"}
-									%h6.center.negro-text.fuente-Sbold Gobierno
+							.card-image.waves-effct.waves-light.waves-block
+								.carta-container2
+									.carta2
+										.front2
+											%img.responsive-img{src: "../img/adultos.jpg"}
+										.back2
+											%a.blanco-text{href: "#"}
+												%h6.padding-top Más información
+												%i.medium.material-icons.topminus present_to_all
+									%h6.center.negro-text.fuente-Sbold Adultos mayores
 					.col.l3.s12
 						.card
-
-							.card-image
-								%a{href: "#"}
-									%img.responsive-img{src: "img/utilidades2.jpg"}
-									%h6.center.negro-text.fuente-Sbold Utilidades
-					.col.l3.s12
-						.card
-
-							.card-image
-								%a{href: "#"}
-									%img.responsive-img{src: "img/telecomunicaciones.jpg"}
+							.card-image.waves-effct.waves-light.waves-block
+								.carta-container2
+									.carta2
+										.front2
+											%img.responsive-img{src: "../img/telecomunicaciones.jpg"}
+										.back2
+											%a.blanco-text{href: "#"}
+												%h6.padding-top Más información
+												%i.medium.material-icons.topminus present_to_all
 									%h6.center.negro-text.fuente-Sbold Telecomunicaciones
-
+					.col.l3.s12
+						.card
+							.card-image.waves-effct.waves-light.waves-block
+								.carta-container2
+									.carta2
+										.front2
+											%img.responsive-img{src: "../img/animales.jpg"}
+										.back2
+											%a.blanco-text{href: "#"}
+												%h6.padding-top Más información
+												%i.medium.material-icons.topminus present_to_all
+									%h6.center.negro-text.fuente-Sbold Rastreo de mascotas
 				.row
 					.col.l3.s12
 						.card
-
-							.card-image
-								%a{href: "#"}
-									%img.responsive-img{src: "img/infantil.jpg"}
-									%h6.center.negro-text.fuente-Sbold Proteccion Infantil
-					.col.l3.s12
-						.card
-
-							.card-image
-								%a{href: "#"}
-									%img.responsive-img{src: "img/operaciones.jpg"}
-									%h6.center.negro-text.fuente-Sbold Operaciones
-					.col.l3.s12
-						.card
-
-							.card-image
-								%a{href: "#"}
-									%img.responsive-img{src: "img/adultos.jpg"}
-									%h6.center.negro-text.fuente-Sbold Adultos
-					.col.l3.s12
-						.card
-
-							.card-image
-								%a{href: "#"}
-									%img.responsive-img{src: "img/animales.jpg"}
-									%h6.center.negro-text.fuente-Sbold Rastreo de animales
-
-				.row
-					.col.l3.s12
-						.card
-
-							.card-image
-								%a{href: "#"}
-									%img.responsive-img{src: "img/alimentos.jpg"}
-									%h6.center.negro-text.fuente-Sbold Servicio de alimentos
-					.col.l3.s12
-						.card
-
-							.card-image
-								%a{href: "#"}
-									%img.responsive-img{src: "img/heavyduty.jpg"}
-									%h6.center.negro-text.fuente-Sbold Heavy-Duty
-					.col.l3.s12
-						.card
-
-							.card-image
-								%a{href: "#"}
-									%img.responsive-img{src: "img/rentaauto.jpg"}
-									%h6.center.negro-text.fuente-Sbold Renta de Autos
-					.col.l3.s12
-						.card
-
-							.card-image
-								%a{href: "#"}
-									%img.responsive-img{src: "img/adolescente.jpg"}
+							.card-image.waves-effct.waves-light.waves-block
+								.carta-container2
+									.carta2
+										.front2
+											%img.responsive-img{src: "../img/adolescente.jpg"}
+										.back2
+											%a.blanco-text{href: "#"}
+												%h6.padding-top Más información
+												%i.medium.material-icons.topminus present_to_all
 									%h6.center.negro-text.fuente-Sbold Conductores adolescentes
-
-				.row
-					.col.l3.s12
-						.card
-
-							.card-image
-								%a{href: "#"}
-									%img.responsive-img{src: "img/seguridad.jpg"}
-									%h6.center.negro-text.fuente-Sbold Seguridad
-					.col.l3.s12
-						.card
-
-							.card-image
-								%a{href: "#"}
-									%img.responsive-img{src: "img/supervision.jpg"}
-									%h6.center.negro-text.fuente-Sbold Supervisión
-					.col.l3.s12
-						.card
-
-							.card-image
-								%a{href: "#"}
-									%img.responsive-img{src: "img/mineria.jpg"}
-									%h6.center.negro-text.fuente-Sbold Minería, petróleo, etc
 					
 					
 
 
-		%footer.page-footer.grey.darken-3{style:"width:100%; top: 170%; bottom: -125% !important;"}
+		%footer.page-footer.grey.darken-3{style:"width:100%; top: 102%; bottom: -60% !important;"}
 			.container{style:"width:90%;"}
 				.row
 					.col.l6.s12
@@ -226,14 +177,14 @@
 								Escríbenos
 					.col.l2.s12
 						%a{href: "#"}
-							%img.responsive-img{src: "img/facebook.png", style: "padding-top: 30%; padding-bottom: 20%;"}
+							%img.responsive-img{src: "../img/facebook.png", style: "padding-top: 30%; padding-bottom: 20%;"}
 					
 					.col.l2.s12
 						%a{href: "#"}
-							%img.responsive-img{src: "img/twitter.png", style:"padding-top: 30%; padding-bottom: 20%;"}
+							%img.responsive-img{src: "../img/twitter.png", style:"padding-top: 30%; padding-bottom: 20%;"}
 					.col.l2.s12
 						%a{href: "#"}
-							%img.responsive-img{src: "img/google-plus.png", style:"padding-top: 30%; padding-bottom: 20%;"}
+							%img.responsive-img{src: "../img/google-plus.png", style:"padding-top: 30%; padding-bottom: 20%;"}
 			
             		
            
@@ -242,4 +193,4 @@
 					Powered By: ActoSoft
 
 		%a.ancla{onclick: "gototop()"}
-			%img{src: "img/up-arrow.png"}
+			%img{src: "../img/up-arrow.png"}
