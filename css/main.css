@@ -222,6 +222,19 @@ nav ul li:hover a.si {
 .carta:hover {
   transform: rotateY(180deg); }
 
+.carta2 {
+  color: #fff;
+  text-align: center;
+  line-height: 130px;
+  position: relative;
+  width: 100%;
+  height: 130px;
+  transition: all 1s ease;
+  transform-style: preserve-3d; }
+
+.carta2:hover {
+  transform: rotateY(180deg); }
+
 .front, .back {
   background: #D32F2F;
   position: fixed;
@@ -232,6 +245,18 @@ nav ul li:hover a.si {
   backface-visibility: hidden; }
 
 .back {
+  transform: rotateY(180deg); }
+
+.front2, .back2 {
+  background: #D32F2F;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 130px;
+  backface-visibility: hidden; }
+
+.back2 {
   transform: rotateY(180deg); }
 
 .topminus {
