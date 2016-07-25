@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang='es'>
+  <head>
+    <meta charset='UTF-8'>
+    <title>Empresa</title>
+    <link href='https://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet'>
+    <link href='css/materialize.min.css' rel='stylesheet'>
+    <link href='css/main.css' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Galada|Roboto+Slab' rel='stylesheet'>
+    <link href='img/favicon-large.png' rel='icon' type='image/x-icon'>
+    <link href='https://www.fuelcdn.com/fonts/proxima-nova.css' rel='stylesheet'>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js'></script>
+    <script src='js/materialize.min.js'></script>
+    <script src='js/facebookapi.js'></script>
+    <script src='js/main2.js'></script>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+  </head>
+  <body>
+    <ul class='dropdown-content' id='dropdown1' style='background-color:rgba(255,255,255,.7) !important;'>
+      <li>
+        <a class='grey-text text-darken-4' href='soluciones-industriales/gestion-de-flotas.html'>GESTION DE FLOTAS</a>
+      </li>
+      <li>
+        <a class='grey-text text-darken-4' href='soluciones-industriales/seguridad-personal.html'>SEGURIDAD PERSONAL</a>
+      </li>
+      <li>
+        <a class='grey-text text-darken-4' href='soluciones-industriales/seguimiento-de-personal.html'>SEGUIMIENTO DE PERSONAL</a>
+      </li>
+    </ul>
+    <ul class='dropdown-content' id='dropdown2' style='background-color:rgba(255,255,255,.7) !important;'>
+      <li>
+        <a class='grey-text text-darken-4' href='dispositivos/gps-tracker.html'>GPS TRACKER</a>
+      </li>
+      <li>
+        <a class='grey-text text-darken-4' href='dispositivos/syrus-sy2210.html'>SYRUS SY2210</a>
+      </li>
+      <li>
+        <a class='grey-text text-darken-4' href='dispositivos/meitrack-vt310.html'>MEITRACK VT310</a>
+      </li>
+      <li>
+        <a class='grey-text text-darken-4' href='dispositivos/gps-tracker-vehiculos.html'>GPS TRACKER VEHICULOS</a>
+      </li>
+      <li>
+        <a class='grey-text text-darken-4' href='dispositivos/mini-tracker.html'>MINI TRACKER</a>
+      </li>
+      <li>
+        <a class='grey-text text-darken-4' href='dispositivos/trackimo.html'>TRACKIMO</a>
+      </li>
+    </ul>
+    <div class='nav orange darken-2' style='z-index:50;'>
+      <ul class='row' style='margin:0; float:right; width:100%'>
+        <li class='lang col offset-s10 s1 white-text'>Español</li>
+        <li class='lang col s1 white-text'>Inglés</li>
+      </ul>
+      <nav style='background-color:rgba(255,255,255,.6) !important; z-index:50; height:15%;'>
+        <div class='nav-wrapper hide-on-med-and-down' style='background-color: transparent; !important;'>
+          <a href='#'>
+            <img alt='' class='padding-left' src='img/Logo-Nuevo.png' style='padding-bottom: 5px; position: fixed; width: 20%; margin-top:0.3%;'>
+          </a>
+          <ul class='right' id='nav-mobile' style='padding-top:1.5%;'>
+            <li class='nav-li no-padding'>
+              <a class='negro-text si fuente-normals fuente-Sbold' href='index.html'>INICIO</a>
+            </li>
+            <li class='nav-li hidden-text'>
+              <a class='negro-text' href='#'>&nbsp&nbsp&nbsp&nbsp&nbsp</a>
+            </li>
+            <li class='nav-li no-padding'>
+              <a class='negro-text si dropdown-button fuente-normals fuente-Sbold' data-activates='dropdown1' href='soluciones-industriales.html'>SOLUCIONES INDUSTRIALES</a>
+            </li>
+            <li class='nav-li no-padding hidden-text'>
+              <a class='negro-text' href='#'>&nbsp&nbsp&nbsp&nbsp&nbsp</a>
+            </li>
+            <li class='nav-li no-padding'>
+              <a class='negro-text si dropdown-button fuente-normals fuente-Sbold' data-activates='dropdown2' href='dispositivos.html'>DISPOSITIVOS</a>
+            </li>
+            <li class='nav-li no-padding hidden-text'>
+              <a class='negro-text' href='#'>&nbsp&nbsp&nbsp&nbsp&nbsp</a>
+            </li>
+            <li class='nav-li no-padding'>
+              <a class='negro-text si fuente-normals fuente-Sbold' href='servidor.html'>SERVIDOR</a>
+            </li>
+            <li class='nav-li no-padding hidden-text'>
+              <a class='negro-text' href='#'>&nbsp&nbsp&nbsp&nbsp&nbsp</a>
+            </li>
+            <li class='nav-li no-padding'>
+              <a class='negro-text si fuente-normals fuente-Sbold' href='empresa.html'>EMPRESA</a>
+            </li>
+            <li class='nav-li no-padding hidden-text'>
+              <a class='negro-text' href='#'>&nbsp&nbsp&nbsp&nbsp&nbsp</a>
+            </li>
+            <li class='nav-li'>
+              <a class='white-text red darken-2 fuente-normals fuente-Sbold' href='contacto.html'>CONTACTO</a>
+            </li>
+          </ul>
+        </div>
+        <div class='nav-wrapper'>
+          <a class='brand-logo left' href='#'>
+            <img alt='' src='img/Logo-Nuevo.png' style='position:absolute; '>
+          </a>
+          <a class='button-collapse' data-activates='mobile' href='#'>
+            <i class='material-icons negro-text bigger'>menu</i>
+          </a>
+          <ul class='side-nav' id='mobile' style='z-index:10'>
+            <li class='negro-text'>
+              <a href='index.html'>Inicio</a>
+            </li>
+            <li class='negro-text'>
+              <a href='soluciones-industriales.html'>Soluciones Industriales</a>
+            </li>
+            <li class='negro-tex'>
+              <a href='dispositivos.html'>Dispositivos</a>
+            </li>
+            <li class='negro-text'>
+              <a href='servidor.html'>Servidor</a>
+            </li>
+            <li class='negro-text'>
+              <a href='empresa.html'>Empresa</a>
+            </li>
+            <li class='negro-text'>
+              <a href='contacto.html'>Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class='cover' style='top:0%;'>
+      <img src='img/empresa.jpg' style='width:100%; !important; position: absolute; height: 50%; opacity: 0.7;'>
+    </div>
+    <div class='cover' style='top: 17%;'>
+      <h1 class='center rojo-text fuente-bold-It'>Empresa</h1>
+    </div>
+    <div class='cover fuente-Sbold justify' style='top:45%;'>
+      <div class='container' style='width: 80%;'>
+        <div class='row'>
+          <div class='col l12 s12'>
+            <h5 style='padding-top:8%;'>INTELIGENCIA SATELITAL es una empresa Mexicana diseñada para adaptarse a sus necesidades con el fin de ofrecerle soluciones en seguridad y tecnología y en servicios de localización y rastreo, como lo son Gestion de flotas GPS, Gestión del servicio móvil, entre otras.</h5>
+            <br>
+            <h5>Mediante nuestro potente servidor podra monitorear en tiempo real a su equipo de trabajo, ofreciéndole un servicio de primer nivel, con las herramientas necesarias mas sofisticadas, para tener el control logístico de su equipo de trabajo, adquiriendo una completa seguridad, y a su vez una plena confianza tanto en el servidor como en la empresa.</h5>
+            <br>
+            <h5>INTELIGENCIA SATELITAL se enfoca principalmente en la gestion y logistica de activos empresariales, obteniendo los mejores resultados del mercado a nivel nacional, optimizando todos los recursos necesarios para lograr los objetivos propuestos.</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='cover' style='top: 135%; width: 100%; position:absolute;'>
+      <div class='orange darken-2' style='height:55%;'>
+        <div class='container' style='width:80%;'>
+          <div class='row'>
+            <div class='col l12 s12'>
+              <h2 class='center blanco-bonito-text fuente-bold-It'>¿Por qué elegir a I.S?</h2>
+            </div>
+          </div>
+          <div class='row'>
+            <div class='col l12 w12'>
+              <h5 class='justify blanco-bonito-text fuente-Sbold'>Con una experiencia de mas de 8 años y profesionalismo, INTELIGENCIA SATELITAL cuenta con los equipos mas sofisticados y competitivos del mercado, asegurando la alta calidad de los mismos y aumentando su confianza en nosotros, ya que para INTELIGENCIA SATELITAL el objetivo principal es ofrecerle la Solución que usted necesita, comprometiéndonos a entregarle los mejores resultados para su empresa.</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='cover' style='top:185%; position: absolute;'>
+      <div class='teal lighten-2' style='height:65%;'>
+        <div class='container' style='width:90%;'>
+          <div class='row' style='padding-top:3%; padding-bottom: 5%;'>
+            <div class='col l5 s12'>
+              <h3 class='center blanco-bonito-text fuente-bold-It'>Misión</h3>
+              <h5 class='justify blanco-bonito-text fuente-Sbold'>Brindar el mejor servicio de calidad en cuanto a rastreos, detecciones y localizaciones, logrando una seguridad y confianza plena en el usuario respecto a su patrimonio, de tal forma que pueda controlar, supervisar y administrar sus activos móviles para cumplir sus objetivos.</h5>
+            </div>
+            <div class='col l2 s12'>
+              <h3 class='center blanco-bonito-text fuente-bold-It'>&nbsp</h3>
+            </div>
+            <div class='col l5 s12'>
+              <h3 class='center blanco-bonito-text fuente-bold-It'>Visión</h3>
+              <h5 class='justify blanco-bonito-text fuente-Sbold' style='padding-top: 7%;'>Ser la empresa preferente del país, ofreciendo las mejores posibilidades de rastreo GPS, con una mejora continua respecto a nuestra tecnología.</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='cover' style='top:248%;'>
+      <h1 class='left fuente-bold-It rojo-text padding-left'>Nuestros valores son:</h1>
+    </div>
+    <div class='cover' style='top: 268%;'>
+      <div class='slider' style='padding-left: 25%;'>
+        <ul class='slides white' style='height:40%; width: 70%;'>
+          <li style='padding-left: 33.3%;'>
+            <div class='card rojo' style='width: 70%; height: 97%;'>
+              <div class='card-content blanco-bonito-text'>
+                <h5 class='center fuente-Bold-It'>Honestidad</h5>
+                <p class='justify fuente-Sbold fuente-normals' style='padding-top: 5%;'>Inteligencia Satelital brinda un servicio de alta confiabilidad, garantizando el mejor funcionamiento posible en cada uno de los diferentes productos que se manejan. Logrando de esta manera, la correcta funcionalidad de cada producto y servicio, sin engaños ni singularidades que traten de afectar la credibilidad de la empresa.</p>
+              </div>
+            </div>
+          </li>
+          <li style='padding-left: 33.3%;'>
+            <div class='card rojo' style='width: 70%; height: 97%;'>
+              <div class='card-content blanco-bonito-text'>
+                <h5 class='center fuente-Bold-It'>Compromiso</h5>
+                <p class='justify fuente-Sbold fuente-normals' style='padding-top: 2%;'>Inteligencia Satelital se encuentra en la mayor disposición de brindar el mejor servicio posible, y a su vez mejorarlo cada día mas, encontrando el bienestar del cliente como la principal prioridad de la empresa, así como garantizar el excelente funcionamiento de cada uno de sus productos. Dentro de todas las prioridades, Inteligencia Satelital esta en busca de la completa seguridad y confianza del cliente, para obtener la satisfacción de ser la empresa preferente del país.</p>
+              </div>
+            </div>
+          </li>
+          <li style='padding-left: 33.3%;'>
+            <div class='card rojo' style='width: 70%; height: 97%;'>
+              <div class='card-content blanco-bonito-text'>
+                <h5 class='center fuente-Bold-It'>Fuerza de equipo</h5>
+                <p class='justify fuente-Sbold fuente-normals' style='padding-top: 5%;'>Inteligencia Satelital cuenta con la mejor actitud en cada uno de los empleados, contando con la mejor flexibilidad de apoyar y ayudar a los clientes, manteniendo un ambiente de buena moral, que consecuentemente mejora el rendimiento en las áreas de trabajo, y la empresa.</p>
+              </div>
+            </div>
+          </li>
+          <li style='padding-left: 33.3%;'>
+            <div class='card rojo' style='width: 70%; height: 97%;'>
+              <div class='card-content blanco-bonito-text'>
+                <h5 class='center fuente-Bold-It'>Puntualidad</h5>
+                <p class='justify fuente-Sbold fuente-normals' style='padding-top: 3.5%;'>Inteligencia Satelital aplica una disciplina en cuanto a manejo de tiempos, desde el primer encuentro la empresa esta comprometida en respetar y reducir el mayor tiempo posible que el cliente sacrifica, estando adaptada siempre en tiempo y forma al cliente.</p>
+                También, inteligencia Satelital proporciona un manejo en tiempo real del servicio, llevandose a cabo completamente en vivo y sin demoras de ningun tipo.
+              </div>
+            </div>
+          </li>
+          <li style='padding-left: 33.3%;'>
+            <div class='card rojo' style='width: 70%; height: 97%;'>
+              <div class='card-content blanco-bonito-text'>
+                <h5 class='center fuente-Bold-It'>Confidencialidad</h5>
+                <p class='justify fuente-Sbold fuente-normals' style='padding-top: 5%;'>Inteligencia Satelital maneja la información de cada cliente a detalle por separado, ofreciendo a cada uno la mayor confidencialidad posible, es decir, la información que se proporciona es exclusivamente de consulta privada entre Inteligencia Satelital y el cliente.</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <footer class='page-footer grey darken-3' style='width:100%; top: 315%; bottom: -270% !important;'>
+      <div class='container' style='width:90%;'>
+        <div class='row'>
+          <div class='col l6 s12'>
+            <h4 class='rojo-text fuente-bold-It'>Contacto</h4>
+            <p class='grey-text text-lighten-4 justify fuente-normal-It' style='font-size: 1.2em;'>
+              Ciudad de México
+            </p>
+            <p class='rojo-text text-lighten-4 justify fuente-normal-It' style='font-size: 1.2em;'>
+              Tel:
+              <span class='grey-text text-lighten-4 justify fuente-normal-It' style='font-size: 1.2em;'>(55) 6349 1008</span>
+            </p>
+            <p class='rojo-text text-lighten-4 justify fuente-normal-It' style='font-size: 1.2em;'>
+              Mail:
+              <a href='mailto:direccion@inteligenciasatelital.com'>
+                <span class='grey-text text-lighten-4 justify fuente-normal-It' style='text-decoration: underline; font-size: 1.2em;'>direccion@inteligenciasatelital.com</span>
+              </a>
+            </p>
+            <a href='#'>
+              <p class='blue-text text-lighten-4 justify fuente-normal-It' style='font-size: 1.5em; text-decoration: underline;'>
+                Escríbenos
+              </p>
+            </a>
+          </div>
+          <div class='col l2 s12'>
+            <a href='#'>
+              <img class='responsive-img' src='img/facebook.png' style='padding-top: 30%; padding-bottom: 20%;'>
+            </a>
+          </div>
+          <div class='col l2 s12'>
+            <a href='#'>
+              <img class='responsive-img' src='img/twitter.png' style='padding-top: 30%; padding-bottom: 20%;'>
+            </a>
+          </div>
+          <div class='col l2 s12'>
+            <a href='#'>
+              <img class='responsive-img' src='img/google-plus.png' style='padding-top: 30%; padding-bottom: 20%;'>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class='footer-copyright negro'>
+        <div class='container'>
+          Powered By: ActoSoft
+        </div>
+      </div>
+    </footer>
+    <a class='ancla' onclick='gototop()'>
+      <img src='img/up-arrow.png'>
+    </a>
+  </body>
+</html>
