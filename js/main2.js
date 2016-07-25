@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	$(".slider").slider({
-		interval:5000,
+		interval:10000,
 		indicators:true,
 		transition:800
 
