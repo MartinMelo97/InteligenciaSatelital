@@ -2,7 +2,7 @@
 %html{:lang => "es"}
 	%head
 		%meta{:charset => "UTF-8"}
-		%title InteligenciaSatelital
+		%title Contacto
 		%link{:rel => "stylesheet", :href => "https://fonts.googleapis.com/icon?family=Material+Icons"}/
 		%link{:rel => "stylesheet", :href => "css/materialize.min.css"}
 		%link{:rel => "stylesheet", :href => "css/main.css"}
@@ -88,24 +88,83 @@
 							%a{:href => "contacto.html"} Contacto
 
 		.cover{style: "top:0%;"}
-			%img{src: "img/empresa.jpg", style: "width:100%; !important; position: absolute; height: 50%; opacity: 0.7;"}
+			%img{src: "img/contacto.jpg", style: "width:100%; !important; position: absolute; height: 60%; opacity: 0.7;"}
 		
-		.cover{style: "top: 17%;"}
-			%h1.center.rojo-text.fuente-bold-It Contacto
+		.cover{style: "top: 30%;"}
+			%h1.center.negro-text.fuente-bold-It Contacto
 
 		.cover.grey.lighten-4{style:"top:53%; height:30% !important;"}
 			%section
-				%article.container.white.row{style:"padding:30px;"}
-					%form.col.s12
+				%article.container.white.row{style:"padding:30px; width:90%;"}
+					%form.col.s7
+						%h4.center.fuente-Sbold.orange-text.darken-2 Escríbenos
 						.input-field.col.s10.col.m6
-							%i.material-icons.prefix account_circle
+							%i.material-icons.prefix{style:"padding-top:5%;"} account_circle
 							%input#name{type:"text", name:"name"}
 							%label{:for => "name"} Nombre
 						.input-field.col.s10.col.m6
+							%i.material-icons.prefix{style:"padding-top:5%;"} email
 							%input.validate#email{type:"email", name:"email", "data-error":"escribe un e-mail valido", "data-success":"correcto"}
 							%label{:for => "email"} Correo
 						.input-field.col.s12
+							%i.material-icons.prefix{style:"padding-top:5%;"} comment
 							%textarea.materialize-textarea#cuerpo{name:"cuerpo"}
-							%label{:for => "cuerpo"} escribe tu correo aquí
-						%input.orange.darken-2.btn{:type => "submit"}
-				
+							%label{:for => "cuerpo"} Escribe tu mensaje aquí
+						.input-field.col.s10.col.m3
+							%input#number.center{type: "number", name: "number", readonly:"true", value:"1797"}
+						.input-field.col.s10.col.m3
+							%input#code{type:"number", name: "code"}
+							%label{:for => "code"} Ingresar código
+						.input-field.col.s10.col.m3
+						.input-field.col.s10.col.m3{style: "padding-top: 2%;"}
+							%input.rojo.btn.right{:type => "submit", value:"Enviar mensaje"}
+
+					.col.s5
+						%p.orange-text.text-darken-2.justify.fuente-normal-It{style: "font-size: 1.5em;"} Dirección
+						%p.negro-text.justify.fuente-normal-It{style: "font-size: 1.5em;"}
+							Ciudad de México
+						%p.orange-text.text-darken-2.justify.fuente-normal-It{style: "font-size: 1.5em;"}
+							Tel: 
+							%p.negro-text.justify.fuente-normal-It{style: "font-size: 1.5em;"} (55) 6349 1008
+						%p.orange-text.text-darken-2.justify.fuente-normal-It{style: "font-size: 1.5em;"}
+							Mail: 
+							%a{href: "mailto:direccion@inteligenciasatelital.com", style: "text-decoration: underline; color: #333333;"}
+								%p.negro-text.justify.fuente-normal-It{style: "font-size: 1.5em;"} direccion@inteligenciasatelital.com
+						
+		%footer.page-footer.grey.darken-3{style:"width:100%; top: 120%; bottom: -80% !important;"}
+			.container{style:"width:90%;"}
+				.row
+					.col.l6.s12
+						%h4.rojo-text.fuente-bold-It Contacto
+						%p.grey-text.text-lighten-4.justify.fuente-normal-It{style: "font-size: 1.2em;"}
+							Ciudad de México
+						%p.rojo-text.text-lighten-4.justify.fuente-normal-It{style: "font-size: 1.2em;"}
+							Tel: 
+							%span.grey-text.text-lighten-4.justify.fuente-normal-It{style: "font-size: 1.2em;"} (55) 6349 1008
+						%p.rojo-text.text-lighten-4.justify.fuente-normal-It{style: "font-size: 1.2em;"}
+							Mail: 
+							%a{href: "mailto:direccion@inteligenciasatelital.com"}
+								%span.grey-text.text-lighten-4.justify.fuente-normal-It{style: "text-decoration: underline; font-size: 1.2em;"} direccion@inteligenciasatelital.com
+						
+						%a{href: "#"}
+							%p.blue-text.text-lighten-4.justify.fuente-normal-It{style: "font-size: 1.5em; text-decoration: underline;"}
+								Escríbenos
+					.col.l2.s12
+						%a{href: "#"}
+							%img.responsive-img{src: "img/facebook.png", style: "padding-top: 30%; padding-bottom: 20%;"}
+					
+					.col.l2.s12
+						%a{href: "#"}
+							%img.responsive-img{src: "img/twitter.png", style:"padding-top: 30%; padding-bottom: 20%;"}
+					.col.l2.s12
+						%a{href: "#"}
+							%img.responsive-img{src: "img/google-plus.png", style:"padding-top: 30%; padding-bottom: 20%;"}
+		
+        	
+       
+			.footer-copyright.negro
+				.container
+					Powered By: ActoSoft
+
+		%a.ancla{onclick: "gototop()"}
+			%img{src: "img/up-arrow.png"}
