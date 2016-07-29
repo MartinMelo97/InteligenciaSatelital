@@ -14,7 +14,7 @@
 		%script{src: "js/facebookapi.js"}
 		%script{src: "js/main.js"}
 		%meta{name:"viewport", content:"width=device-width, initial-scale=1.0"}
-	%body
+	%body.grey.lighten-4
 		%ul.dropdown-content#dropdown1{style:"background-color:rgba(255,255,255,.7) !important;"}
 			%li
 				%a.grey-text.text-darken-4{:href => "soluciones-industriales/gestion-de-flotas.html"} GESTION DE FLOTAS
@@ -86,3 +86,26 @@
 							%a{:href => "empresa.html"} Empresa
 						%li.negro-text
 							%a{:href => "contacto.html"} Contacto
+
+		.cover{style: "top:0%;"}
+			%img{src: "img/empresa.jpg", style: "width:100%; !important; position: absolute; height: 50%; opacity: 0.7;"}
+		
+		.cover{style: "top: 17%;"}
+			%h1.center.rojo-text.fuente-bold-It Contacto
+
+		.cover.grey.lighten-4{style:"top:53%; height:30% !important;"}
+			%section
+				%article.container.white.row{style:"padding:30px;"}
+					%form.col.s12
+						.input-field.col.s10.col.m6
+							%i.material-icons.prefix account_circle
+							%input#name{type:"text", name:"name"}
+							%label{:for => "name"} Nombre
+						.input-field.col.s10.col.m6
+							%input.validate#email{type:"email", name:"email", "data-error":"escribe un e-mail valido", "data-success":"correcto"}
+							%label{:for => "email"} Correo
+						.input-field.col.s12
+							%textarea.materialize-textarea#cuerpo{name:"cuerpo"}
+							%label{:for => "cuerpo"} escribe tu correo aquí
+						%input.orange.darken-2.btn{:type => "submit"}
+				

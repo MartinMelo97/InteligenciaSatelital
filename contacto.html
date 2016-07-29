@@ -15,7 +15,7 @@
     <script src='js/main.js'></script>
     <meta content='width=device-width, initial-scale=1.0' name='viewport'>
   </head>
-  <body>
+  <body class='grey lighten-4'>
     <ul class='dropdown-content' id='dropdown1' style='background-color:rgba(255,255,255,.7) !important;'>
       <li>
         <a class='grey-text text-darken-4' href='soluciones-industriales/gestion-de-flotas.html'>GESTION DE FLOTAS</a>
@@ -122,6 +122,34 @@
           </ul>
         </div>
       </nav>
+    </div>
+    <div class='cover' style='top:0%;'>
+      <img src='img/empresa.jpg' style='width:100%; !important; position: absolute; height: 50%; opacity: 0.7;'>
+    </div>
+    <div class='cover' style='top: 17%;'>
+      <h1 class='center rojo-text fuente-bold-It'>Contacto</h1>
+    </div>
+    <div class='cover grey lighten-4' style='top:53%; height:30% !important;'>
+      <section>
+        <article class='container white row' style='padding:30px;'>
+          <form class='col s12'>
+            <div class='input-field col s10 col m6'>
+              <i class='material-icons prefix'>account_circle</i>
+              <input id='name' name='name' type='text'>
+              <label for='name'>Nombre</label>
+            </div>
+            <div class='input-field col s10 col m6'>
+              <input class='validate' data-error='escribe un e-mail valido' data-success='correcto' id='email' name='email' type='email'>
+              <label for='email'>Correo</label>
+            </div>
+            <div class='input-field col s12'>
+              <textarea class='materialize-textarea' id='cuerpo' name='cuerpo'></textarea>
+              <label for='cuerpo'>escribe tu correo aquí</label>
+            </div>
+            <input class='orange darken-2 btn' type='submit'>
+          </form>
+        </article>
+      </section>
     </div>
   </body>
 </html>
