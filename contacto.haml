@@ -1,7 +1,88 @@
 !!! 5
-%html{:lang => "en"}
-%head
-	%meta{:charset => "UTF-8"}/
-	%title Document
-%body
-	
+%html{:lang => "es"}
+	%head
+		%meta{:charset => "UTF-8"}
+		%title InteligenciaSatelital
+		%link{:rel => "stylesheet", :href => "https://fonts.googleapis.com/icon?family=Material+Icons"}/
+		%link{:rel => "stylesheet", :href => "css/materialize.min.css"}
+		%link{:rel => "stylesheet", :href => "css/main.css"}
+		%link{:rel => "stylesheet", :href => "https://fonts.googleapis.com/css?family=Galada|Roboto+Slab"}
+		%link{:rel => "icon", :href => "img/favicon-large.png", :type => "image/x-icon"}
+		%link{:rel => "stylesheet", :href=> "https://www.fuelcdn.com/fonts/proxima-nova.css"}
+		%script{src: "https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"}
+		%script{src: "js/materialize.min.js"}
+		%script{src: "js/facebookapi.js"}
+		%script{src: "js/main.js"}
+		%meta{name:"viewport", content:"width=device-width, initial-scale=1.0"}
+	%body
+		%ul.dropdown-content#dropdown1{style:"background-color:rgba(255,255,255,.7) !important;"}
+			%li
+				%a.grey-text.text-darken-4{:href => "soluciones-industriales/gestion-de-flotas.html"} GESTION DE FLOTAS
+			%li
+				%a.grey-text.text-darken-4{:href => "soluciones-industriales/seguridad-personal.html"} SEGURIDAD PERSONAL
+			%li
+				%a.grey-text.text-darken-4{:href => "soluciones-industriales/seguimiento-de-personal.html"} SEGUIMIENTO DE PERSONAL
+
+		%ul.dropdown-content#dropdown2{style:"background-color:rgba(255,255,255,.7) !important;"}
+			%li
+				%a.grey-text.text-darken-4{:href => "dispositivos/gps-tracker.html"} GPS TRACKER
+			%li
+				%a.grey-text.text-darken-4{:href => "dispositivos/syrus-sy2210.html"} SYRUS SY2210
+			%li
+				%a.grey-text.text-darken-4{:href => "dispositivos/meitrack-vt310.html"} MEITRACK VT310
+			%li
+				%a.grey-text.text-darken-4{:href => "dispositivos/gps-tracker-vehiculos.html"} GPS TRACKER VEHICULOS 
+			%li
+				%a.grey-text.text-darken-4{:href => "dispositivos/mini-tracker.html"} MINI TRACKER
+			%li
+				%a.grey-text.text-darken-4{:href => "dispositivos/trackimo.html"} TRACKIMO
+
+		.nav.orange.darken-2{style:"z-index:50;"}
+			%ul.row{style:"margin:0; float:right; width:100%"}
+				%li.lang.col.offset-s10.s1.white-text Español
+				%li.lang.col.s1.white-text Inglés
+			%nav{style:"background-color:rgba(255,255,255,.6) !important; z-index:50; height:15%;"}
+				.nav-wrapper.hide-on-med-and-down{style:"background-color: transparent; !important;"}
+					%a{href: "#"}
+						%img.padding-left{:src => "img/Logo-Nuevo.png", :alt => "", style: "padding-bottom: 5px; position: fixed; width: 20%; margin-top:0.3%;"}/
+					%ul#nav-mobile.right{style: "padding-top:1.5%;"}
+						%li.nav-li.no-padding
+							%a.negro-text.si.fuente-normals.fuente-Sbold{href: "index.html"} INICIO
+						%li.nav-li.hidden-text
+							%a.negro-text{href: "#"} &nbsp&nbsp&nbsp
+						%li.nav-li.no-padding
+							%a.negro-text.si.dropdown-button.fuente-normals.fuente-Sbold{href: "soluciones-industriales.html","data-activates":"dropdown1"} SOLUCIONES INDUSTRIALES
+						%li.nav-li.no-padding.hidden-text
+							%a.negro-text{href: "#"} &nbsp&nbsp&nbsp
+						%li.nav-li.no-padding
+							%a.negro-text.si.dropdown-button.fuente-normals.fuente-Sbold{href: "dispositivos.html","data-activates":"dropdown2"} DISPOSITIVOS
+						%li.nav-li.no-padding.hidden-text
+							%a.negro-text{href: "#"} &nbsp&nbsp&nbsp
+						%li.nav-li.no-padding
+							%a.negro-text.si.fuente-normals.fuente-Sbold{href: "servidor.html"} SERVIDOR 
+						%li.nav-li.no-padding.hidden-text
+							%a.negro-text{href: "#"} &nbsp&nbsp&nbsp
+						%li.nav-li.no-padding
+							%a.negro-text.si.fuente-normals.fuente-Sbold{href: "empresa.html"} EMPRESA
+						%li.nav-li.no-padding.hidden-text
+							%a.negro-text{href: "#"} &nbsp&nbsp&nbsp
+						%li.nav-li
+							%a.white-text.red.darken-2.fuente-normals.fuente-Sbold{href: "contacto.html"} CONTACTO
+				.nav-wrapper
+					%a.brand-logo.left{href: "#"}
+						%img{:src => "img/Logo-Nuevo.png", :alt => "", style:"position:absolute; "}/
+					%a.button-collapse{href:"#", "data-activates":"mobile"}
+						%i.material-icons.negro-text.bigger menu
+					%ul.side-nav{id:"mobile", style:"z-index:10"}
+						%li.negro-text
+							%a{:href => "index.html"} Inicio
+						%li.negro-text
+							%a{:href => "soluciones-industriales.html"} Soluciones Industriales
+						%li.negro-tex
+							%a{:href => "dispositivos.html"} Dispositivos
+						%li.negro-text
+							%a{:href => "servidor.html"} Servidor
+						%li.negro-text
+							%a{:href => "empresa.html"} Empresa
+						%li.negro-text
+							%a{:href => "contacto.html"} Contacto

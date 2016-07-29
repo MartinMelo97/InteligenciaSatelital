@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang='es'>
+  <head>
+    <meta charset='UTF-8'>
+    <title>InteligenciaSatelital</title>
+    <link href='https://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet'>
+    <link href='css/materialize.min.css' rel='stylesheet'>
+    <link href='css/main.css' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Galada|Roboto+Slab' rel='stylesheet'>
+    <link href='img/favicon-large.png' rel='icon' type='image/x-icon'>
+    <link href='https://www.fuelcdn.com/fonts/proxima-nova.css' rel='stylesheet'>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js'></script>
+    <script src='js/materialize.min.js'></script>
+    <script src='js/facebookapi.js'></script>
+    <script src='js/main.js'></script>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+  </head>
+  <body>
+    <ul class='dropdown-content' id='dropdown1' style='background-color:rgba(255,255,255,.7) !important;'>
+      <li>
+        <a class='grey-text text-darken-4' href='soluciones-industriales/gestion-de-flotas.html'>GESTION DE FLOTAS</a>
+      </li>
+      <li>
+        <a class='grey-text text-darken-4' href='soluciones-industriales/seguridad-personal.html'>SEGURIDAD PERSONAL</a>
+      </li>
+      <li>
+        <a class='grey-text text-darken-4' href='soluciones-industriales/seguimiento-de-personal.html'>SEGUIMIENTO DE PERSONAL</a>
+      </li>
+    </ul>
+    <ul class='dropdown-content' id='dropdown2' style='background-color:rgba(255,255,255,.7) !important;'>
+      <li>
+        <a class='grey-text text-darken-4' href='dispositivos/gps-tracker.html'>GPS TRACKER</a>
+      </li>
+      <li>
+        <a class='grey-text text-darken-4' href='dispositivos/syrus-sy2210.html'>SYRUS SY2210</a>
+      </li>
+      <li>
+        <a class='grey-text text-darken-4' href='dispositivos/meitrack-vt310.html'>MEITRACK VT310</a>
+      </li>
+      <li>
+        <a class='grey-text text-darken-4' href='dispositivos/gps-tracker-vehiculos.html'>GPS TRACKER VEHICULOS</a>
+      </li>
+      <li>
+        <a class='grey-text text-darken-4' href='dispositivos/mini-tracker.html'>MINI TRACKER</a>
+      </li>
+      <li>
+        <a class='grey-text text-darken-4' href='dispositivos/trackimo.html'>TRACKIMO</a>
+      </li>
+    </ul>
+    <div class='nav orange darken-2' style='z-index:50;'>
+      <ul class='row' style='margin:0; float:right; width:100%'>
+        <li class='lang col offset-s10 s1 white-text'>Español</li>
+        <li class='lang col s1 white-text'>Inglés</li>
+      </ul>
+      <nav style='background-color:rgba(255,255,255,.6) !important; z-index:50; height:15%;'>
+        <div class='nav-wrapper hide-on-med-and-down' style='background-color: transparent; !important;'>
+          <a href='#'>
+            <img alt='' class='padding-left' src='img/Logo-Nuevo.png' style='padding-bottom: 5px; position: fixed; width: 20%; margin-top:0.3%;'>
+          </a>
+          <ul class='right' id='nav-mobile' style='padding-top:1.5%;'>
+            <li class='nav-li no-padding'>
+              <a class='negro-text si fuente-normals fuente-Sbold' href='index.html'>INICIO</a>
+            </li>
+            <li class='nav-li hidden-text'>
+              <a class='negro-text' href='#'>&nbsp&nbsp&nbsp</a>
+            </li>
+            <li class='nav-li no-padding'>
+              <a class='negro-text si dropdown-button fuente-normals fuente-Sbold' data-activates='dropdown1' href='soluciones-industriales.html'>SOLUCIONES INDUSTRIALES</a>
+            </li>
+            <li class='nav-li no-padding hidden-text'>
+              <a class='negro-text' href='#'>&nbsp&nbsp&nbsp</a>
+            </li>
+            <li class='nav-li no-padding'>
+              <a class='negro-text si dropdown-button fuente-normals fuente-Sbold' data-activates='dropdown2' href='dispositivos.html'>DISPOSITIVOS</a>
+            </li>
+            <li class='nav-li no-padding hidden-text'>
+              <a class='negro-text' href='#'>&nbsp&nbsp&nbsp</a>
+            </li>
+            <li class='nav-li no-padding'>
+              <a class='negro-text si fuente-normals fuente-Sbold' href='servidor.html'>SERVIDOR</a>
+            </li>
+            <li class='nav-li no-padding hidden-text'>
+              <a class='negro-text' href='#'>&nbsp&nbsp&nbsp</a>
+            </li>
+            <li class='nav-li no-padding'>
+              <a class='negro-text si fuente-normals fuente-Sbold' href='empresa.html'>EMPRESA</a>
+            </li>
+            <li class='nav-li no-padding hidden-text'>
+              <a class='negro-text' href='#'>&nbsp&nbsp&nbsp</a>
+            </li>
+            <li class='nav-li'>
+              <a class='white-text red darken-2 fuente-normals fuente-Sbold' href='contacto.html'>CONTACTO</a>
+            </li>
+          </ul>
+        </div>
+        <div class='nav-wrapper'>
+          <a class='brand-logo left' href='#'>
+            <img alt='' src='img/Logo-Nuevo.png' style='position:absolute; '>
+          </a>
+          <a class='button-collapse' data-activates='mobile' href='#'>
+            <i class='material-icons negro-text bigger'>menu</i>
+          </a>
+          <ul class='side-nav' id='mobile' style='z-index:10'>
+            <li class='negro-text'>
+              <a href='index.html'>Inicio</a>
+            </li>
+            <li class='negro-text'>
+              <a href='soluciones-industriales.html'>Soluciones Industriales</a>
+            </li>
+            <li class='negro-tex'>
+              <a href='dispositivos.html'>Dispositivos</a>
+            </li>
+            <li class='negro-text'>
+              <a href='servidor.html'>Servidor</a>
+            </li>
+            <li class='negro-text'>
+              <a href='empresa.html'>Empresa</a>
+            </li>
+            <li class='negro-text'>
+              <a href='contacto.html'>Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </body>
+</html>
