@@ -11,8 +11,8 @@
     <link href='https://www.fuelcdn.com/fonts/proxima-nova.css' rel='stylesheet'>
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js'></script>
     <script src='js/materialize.min.js'></script>
-    <script src='js/facebookapi.js'></script>
     <script src='js/main.js'></script>
+    <script src='js/random-number.js'></script>
     <meta content='width=device-width, initial-scale=1.0' name='viewport'>
   </head>
   <body class='grey lighten-4'>
@@ -132,7 +132,7 @@
     <div class='cover grey lighten-4' style='top:53%; height:30% !important;'>
       <section>
         <article class='container white row' style='padding:30px; width:90%;'>
-          <form class='col s7'>
+          <form class='col s7' method='post'>
             <h4 class='center fuente-Sbold orange-text darken-2'>Escríbenos</h4>
             <div class='input-field col s10 col m6'>
               <i class='material-icons prefix' style='padding-top:5%;'>account_circle</i>
@@ -150,15 +150,15 @@
               <label for='cuerpo'>Escribe tu mensaje aquí</label>
             </div>
             <div class='input-field col s10 col m3'>
-              <input class='center' id='number' name='number' readonly='true' type='number' value='1797'>
+              <input class='center' id='number' name='number' readonly='true' type='number'>
             </div>
             <div class='input-field col s10 col m3'>
-              <input id='code' name='code' type='number'>
+              <input id='code' maxlength='4' name='code' pattern='d*' type='tel'>
               <label for='code'>Ingresar código</label>
             </div>
             <div class='input-field col s10 col m3'></div>
             <div class='input-field col s10 col m3' style='padding-top: 2%;'>
-              <input class='rojo btn right' type='submit' value='Enviar mensaje'>
+              <input class='rojo btn right' onclick='CompareNumbers()' type='submit' value='Enviar mensaje'>
             </div>
           </form>
           <div class='col s5'>

@@ -11,8 +11,8 @@
 		%link{:rel => "stylesheet", :href=> "https://www.fuelcdn.com/fonts/proxima-nova.css"}
 		%script{src: "https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"}
 		%script{src: "js/materialize.min.js"}
-		%script{src: "js/facebookapi.js"}
 		%script{src: "js/main.js"}
+		%script{src: "js/random-number.js"}
 		%meta{name:"viewport", content:"width=device-width, initial-scale=1.0"}
 	%body.grey.lighten-4
 		%ul.dropdown-content#dropdown1{style:"background-color:rgba(255,255,255,.7) !important;"}
@@ -96,7 +96,7 @@
 		.cover.grey.lighten-4{style:"top:53%; height:30% !important;"}
 			%section
 				%article.container.white.row{style:"padding:30px; width:90%;"}
-					%form.col.s7
+					%form.col.s7{method:"post"}
 						%h4.center.fuente-Sbold.orange-text.darken-2 Escríbenos
 						.input-field.col.s10.col.m6
 							%i.material-icons.prefix{style:"padding-top:5%;"} account_circle
@@ -111,13 +111,13 @@
 							%textarea.materialize-textarea#cuerpo{name:"cuerpo"}
 							%label{:for => "cuerpo"} Escribe tu mensaje aquí
 						.input-field.col.s10.col.m3
-							%input#number.center{type: "number", name: "number", readonly:"true", value:"1797"}
+							%input#number.center{type: "number", name: "number", readonly:"true"}
 						.input-field.col.s10.col.m3
-							%input#code{type:"number", name: "code"}
+							%input#code{type:"tel", name: "code", maxlength: "4"}
 							%label{:for => "code"} Ingresar código
 						.input-field.col.s10.col.m3
 						.input-field.col.s10.col.m3{style: "padding-top: 2%;"}
-							%input.rojo.btn.right{:type => "submit", value:"Enviar mensaje"}
+							%input.rojo.btn.right{:type => "submit", value:"Enviar mensaje", onclick: "CompareNumbers()"}
 
 					.col.s5
 						%p.orange-text.text-darken-2.justify.fuente-normal-It{style: "font-size: 1.5em;"} Dirección
