@@ -2,7 +2,7 @@
 %html{:lang => "es"}
 	%head
 		%meta{:charset => "UTF-8"}
-		%title Seguimiento de personal
+		%title Tranporte
 		%link{:rel => "stylesheet", :href => "https://fonts.googleapis.com/icon?family=Material+Icons"}/
 		%link{:rel => "stylesheet", :href => "../css/materialize.min.css"}
 		%link{:rel => "stylesheet", :href => "../css/main.css"}
@@ -31,7 +31,7 @@
 			%li
 				%a.grey-text.text-darken-4{:href => "../dispositivos/meitrack-vt310.html"} MEITRACK VT310
 			%li
-				%a.grey-text.text-darken-4{:href => "../dispositivos/gps-tracker-vehiculos.html"} GPS TRACKER VEHICULOS 
+				%a.grey-text.text-darken-4{:href => "../dispositivos/gps-tracker-vehiculos.html"} GPS TRACKER VEHICULOS
 			%li
 				%a.grey-text.text-darken-4{:href => "../dispositivos/mini-tracker.html"} MINI TRACKER
 			%li
@@ -59,7 +59,7 @@
 						%li.nav-li.no-padding.hidden-text
 							%a.negro-text{href: "#"} &nbsp&nbsp&nbsp&nbsp&nbsp
 						%li.nav-li.no-padding
-							%a.negro-text.si.fuente-normals.fuente-Sbold{href: "../servidor.html"} SERVIDOR 
+							%a.negro-text.si.fuente-normals.fuente-Sbold{href: "../servidor.html"} SERVIDOR
 						%li.nav-li.no-padding.hidden-text
 							%a.negro-text{href: "#"} &nbsp&nbsp&nbsp&nbsp&nbsp
 						%li.nav-li.no-padding
@@ -87,93 +87,116 @@
 						%li.negro-text
 							%a{:href => "../contacto.html"} Contacto
 
+		-#.cover{style:"top:15.5%; width: 100%; position: absolute;"}
+		-#	.orange.darken-2{style: "height: 60%;"}
+		-#		%h2.blanco-bonito-text.fuente-Bold-It.center{style:"padding-top:2%; padding-bottom:1%;"} Dispositivos Inteligencia Satelital
+		-#		%p.blanco-bonito-text.fuente-Bold-It.center
+		-#			%b Una cosa aquí
+		-#			Otra aquí, que es como una descripcion de la pagina
+		.cover.row{style:"top:25%"}
+			%section.section.side-m.grey-text.text-darken-4.col.s12.m9
+				%article.container{style: "width:100%; height:30% !important;"}
+					.col.s12
+						.card.horizontal
+							.card-image
+								%img{:src => "../img/transporte.jpg", :alt => ""}/
+							.card-stacked
+							-#	.card-content
+							-#		%p 
+					
+				%article.container
+					.col.s12
+						%h1.fuente-bold.orange-text.darken-2 Transporte
+					%span.col.s1
+					.col.s12
+						%h3.col.s12 Características
+						%p.justify Eficiencia y localización de su flota, la cual obtendrá de la solución de rastreo por parte de Inteligencia Satelital, mientras que los riesgos se reducen.
+						%h3.col.s12 Beneficios
+						%p.justify
+							%ul
+								%li{style: "list-style-type: none; color:transparent;"} sadf
+								%li.circleli Maximice la Seguridad
+								%li.circleli Mayor Eficiencia y Rentabilidad
+								%li.circleli Reduzca costos
+								%li.circleli Mejore la satisfacción de los usuarios
+						%h3 Dispositivos
+						%ul.collection
+							%a.collection-item.orange-text.text-darken-4{:href => "#!"} Dispositivo 1
+							%a.collection-item.orange-text.text-darken-4{:href => "#!"} Dispositivo 2
+							%a.collection-item.orange-text.text-darken-4{:href => "#!"} Dispositivo 3
+					
 
-		.cover{style: "top:0%;"}
-			%img{src: "../img/seguimientopersonalback.jpg", style: "width:100%; !important; position: absolute; height: 60%; opacity: 0.8;"}
+			%section.section.grey-text.text-darken-4.col.hide-on-small.m3
+				%article.container
+					%ul
+						%li.side
+							%a.mainsolution.rojo-text{:href => "transporte.html"} 
+								Transporte
+						%li.side
+							%a{:href => "proteccion-infantil.html"} 
+								Protección Infantil
+						%li.side
+							%a{:href => "gobierno.html"} 
+								Gobierno
+						%li.side
+							%a{:href => "utilidades.html"} 
+								Utilidades
+						%li.side
+							%a{:href => "telecomunicaciones.html"} 
+								Telecomunicaciones
+						%li.side
+							%a{:href => "proteccion-infantil.html"} 
+								Protección Infantil
+						%li.side
+							%a{:href => "operaciones.html"} 
+								Operaciones
+						%li.side
+							%a{:href => "adultos.html"} 
+								Adultos
+						%li.side
+							%a{:href => "rastreo-animales.html"} 
+								Rastreo de Animales
+						%li.side
+							%a{:href => "servicio-alimentos.html"} 
+								Servicio de alimentos
+						%li.side
+							%a{:href => "heavy-duty.html"} 
+								Heavy-Duty
+						%li.side
+							%a{:href => "renta-autos.html"} 
+								Renta de autos
+						%li.side
+							%a{:href => "conductores-adolescentes.html"} 
+								Conductores Adolescentes
+						%li.side
+							%a{:href => "rastreo-exclusivo.html"} 
+								Rastreo Exclusivo
+						%li.side
+							%a{:href => "proteccion-infantil.html"} 
+								Protección Infantil
+						%li.side
+							%a{:href => "seguridad.html"} 
+								Seguridad
+						%li.side
+							%a{:href => "supervision.html"} 
+								Supervisión
+						%li.side
+							%a{:href => "mineria-petroleo.html"} 
+								Minería, Petróleo, etc
 		
-		.cover{style: "top: 45%;"}
-			%h2.center.blanco-text.fuente-bold-It Seguimiento de personal
-		.cover.grey.lighten-2{style:"top:60%;"}
-			.container
-				.row{style:"padding-top:5%;"}
-					.col.l3.s12
-						.card
-							.card-image.waves-effct.waves-light.waves-block
-								.carta-container2
-									.carta2
-										.front2
-											%img.responsive-img{src: "../img/gobierno.jpg"}
-										.back2
-											%a.blanco-text{href: "#"}
-												%h6.padding-top Más información
-												%i.medium.material-icons.topminus present_to_all
-									%h6.center.negro-text.fuente-Sbold Gobierno
-					.col.l3.s12
-						.card
-							.card-image.waves-effct.waves-light.waves-block
-								.carta-container2
-									.carta2
-										.front2
-											%img.responsive-img{src: "../img/heavyduty.jpg"}
-										.back2
-											%a.blanco-text{href: "#"}
-												%h6.padding-top Más información
-												%i.medium.material-icons.topminus present_to_all
-									%h6.center.negro-text.fuente-Sbold Heavy-Duty
-					.col.l3.s12
-						.card
-							.card-image.waves-effct.waves-light.waves-block
-								.carta-container2
-									.carta2
-										.front2
-											%img.responsive-img{src: "../img/rastreo.jpg"}
-										.back2
-											%a.blanco-text{href: "#"}
-												%h6.padding-top Más información
-												%i.medium.material-icons.topminus present_to_all
-									%h6.center.negro-text.fuente-Sbold Rastreo Exclusivo
-					.col.l3.s12
-						.card
-							.card-image.waves-effct.waves-light.waves-block
-								.carta-container2
-									.carta2
-										.front2
-											%img.responsive-img{src: "../img/seguridad.jpg"}
-										.back2
-											%a.blanco-text{href: "#"}
-												%h6.padding-top Más información
-												%i.medium.material-icons.topminus present_to_all
-									%h6.center.negro-text.fuente-Sbold Seguridad
-				.row
-					.col.l3.s12
-						.card
-							.card-image.waves-effct.waves-light.waves-block
-								.carta-container2
-									.carta2
-										.front2
-											%img.responsive-img{src: "../img/supervision.jpg"}
-										.back2
-											%a.blanco-text{href: "#"}
-												%h6.padding-top Más información
-												%i.medium.material-icons.topminus present_to_all
-									%h6.center.negro-text.fuente-Sbold Supervisión
-					.col.l3.s12
-						.card
-							.card-image.waves-effct.waves-light.waves-block
-								.carta-container2
-									.carta2
-										.front2
-											%img.responsive-img{src: "../img/mineria.jpg"}
-										.back2
-											%a.blanco-text{href: "#"}
-												%h6.padding-top Más información
-												%i.medium.material-icons.topminus present_to_all
-									%h6.center.negro-text.fuente-Sbold Minería, Petróleo, etc
-					
-					
-
-
-		%footer.page-footer.grey.darken-3{style:"width:100%; top: 130%; bottom: -88% !important;"}
+		.cover{style:"top:200%;"}
+			.prod-cont{style: "background-image: url(../img/files.jpg); background-size: 100% 100%;"}
+				.container{style: "width:90%; background-color: rgba(255,255,255,0.8); display: block;"}
+					.row
+						.col.l12.s12ight:
+							%h3.center.fuente-bold-It Conoce todas las características de nuestro servidor
+					.row.center
+						.col.l12.s12.center
+							%img{src: "../img/more-info2.png", style: "width: 8%; height:8%;"}
+							%h4.rojo-text.fuente-Sbold Conocer más					
+						
+	
+		%footer.page-footer.grey.darken-3{style:"width:100%; bottom: -215% !important;"}
 			.container{style:"width:90%;"}
 				.row
 					.col.l6.s12
@@ -210,3 +233,5 @@
 
 		%a.ancla{onclick: "gototop()"}
 			%img{src: "../img/up-arrow.png"}
+
+			

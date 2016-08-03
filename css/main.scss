@@ -45,7 +45,8 @@ li.side{
   padding-top:30px;
 }
 li.side a{
-  color: #FF9416;
+  /*color: #FF9416;*/
+  color: #333333;
 }
 
 //Fuentes
@@ -223,4 +224,13 @@ li.side a{
 
 td{
   width: 15%;
+}
+
+.circleli{
+  list-style-type: disc;
+}
+
+.mainsolution{
+  font-weight: bold;
+  color: #e65100;
 }
