@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang='es'>
+  <head>
+    <meta charset='UTF-8'>
+    <title>Syrus SY2210</title>
+    <link href='https://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet'>
+    <link href='../css/materialize.min.css' rel='stylesheet'>
+    <link href='../css/main.css' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Galada|Roboto+Slab' rel='stylesheet'>
+    <link href='../img/favicon-large.png' rel='icon' type='image/x-icon'>
+    <link href='https://www.fuelcdn.com/fonts/proxima-nova.css' rel='stylesheet'>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js'></script>
+    <script src='../js/materialize.min.js'></script>
+    <script src='../js/facebookapi.js'></script>
+    <script src='../js/main.js'></script>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+  </head>
+  <body>
+    <ul class='dropdown-content' id='dropdown1' style='background-color:rgba(255,255,255,.7) !important;'>
+      <li>
+        <a class='grey-text text-darken-4' href='gestion-de-flotas.html'>GESTION DE FLOTAS</a>
+      </li>
+      <li>
+        <a class='grey-text text-darken-4' href='seguridad-personal.html'>SEGURIDAD PERSONAL</a>
+      </li>
+      <li>
+        <a class='grey-text text-darken-4' href='seguimiento-de-personal.html'>SEGUIMIENTO DE PERSONAL</a>
+      </li>
+    </ul>
+    <ul class='dropdown-content' id='dropdown2' style='background-color:rgba(255,255,255,.7) !important;'>
+      <li>
+        <a class='grey-text text-darken-4' href='../dispositivos/gps-tracker.html'>GPS TRACKER</a>
+      </li>
+      <li>
+        <a class='grey-text text-darken-4' href='../dispositivos/syrus-sy2210.html'>SYRUS SY2210</a>
+      </li>
+      <li>
+        <a class='grey-text text-darken-4' href='../dispositivos/meitrack-vt310.html'>MEITRACK VT310</a>
+      </li>
+      <li>
+        <a class='grey-text text-darken-4' href='../dispositivos/gps-tracker-vehiculos.html'>GPS TRACKER VEHICULOS</a>
+      </li>
+      <li>
+        <a class='grey-text text-darken-4' href='../dispositivos/mini-tracker.html'>MINI TRACKER</a>
+      </li>
+      <li>
+        <a class='grey-text text-darken-4' href='../dispositivos/trackimo.html'>TRACKIMO</a>
+      </li>
+    </ul>
+    <div class='nav orange darken-2' style='z-index:50;'>
+      <ul class='row' style='margin:0; float:right; width:100%'>
+        <li class='lang col offset-s10 s1 white-text'>Español</li>
+        <li class='lang col s1 white-text'>Inglés</li>
+      </ul>
+      <nav style='background-color:rgba(255,255,255,.6) !important; z-index:50; height:15%;'>
+        <div class='nav-wrapper hide-on-med-and-down' style='background-color: transparent; !important;'>
+          <a href='../index.html'>
+            <img alt='' class='padding-left' src='../img/Logo-Nuevo.png' style='padding-bottom: 5px; position: fixed; width: 20%; margin-top:0.3%;'>
+          </a>
+          <ul class='right' id='nav-mobile' style='padding-top:1.5%;'>
+            <li class='nav-li no-padding'>
+              <a class='negro-text si fuente-normals fuente-Sbold' href='../index.html'>INICIO</a>
+            </li>
+            <li class='nav-li hidden-text'>
+              <a class='negro-text' href='#'>&nbsp&nbsp&nbsp&nbsp&nbsp</a>
+            </li>
+            <li class='nav-li no-padding'>
+              <a class='negro-text si dropdown-button fuente-normals fuente-Sbold' data-activates='dropdown1' href='../soluciones-industriales.html'>SOLUCIONES INDUSTRIALES</a>
+            </li>
+            <li class='nav-li no-padding hidden-text'>
+              <a class='negro-text' href='#'>&nbsp&nbsp&nbsp&nbsp&nbsp</a>
+            </li>
+            <li class='nav-li no-padding'>
+              <a class='negro-text si dropdown-button fuente-normals fuente-Sbold' data-activates='dropdown2' href='../dispositivos.html'>DISPOSITIVOS</a>
+            </li>
+            <li class='nav-li no-padding hidden-text'>
+              <a class='negro-text' href='#'>&nbsp&nbsp&nbsp&nbsp&nbsp</a>
+            </li>
+            <li class='nav-li no-padding'>
+              <a class='negro-text si fuente-normals fuente-Sbold' href='../servidor.html'>SERVIDOR</a>
+            </li>
+            <li class='nav-li no-padding hidden-text'>
+              <a class='negro-text' href='#'>&nbsp&nbsp&nbsp&nbsp&nbsp</a>
+            </li>
+            <li class='nav-li no-padding'>
+              <a class='negro-text si fuente-normals fuente-Sbold' href='../empresa.html'>EMPRESA</a>
+            </li>
+            <li class='nav-li no-padding hidden-text'>
+              <a class='negro-text' href='#'>&nbsp&nbsp&nbsp&nbsp&nbsp</a>
+            </li>
+            <li class='nav-li'>
+              <a class='white-text red darken-2 fuente-normals fuente-Sbold' href='../contacto../.html'>CONTACTO</a>
+            </li>
+          </ul>
+        </div>
+        <div class='nav-wrapper'>
+          <a class='brand-logo left' href='#'>
+            <img alt='' src='../img/Logo-Nuevo.png' style='position:absolute; '>
+          </a>
+          <a class='button-collapse' data-activates='mobile' href='#'>
+            <i class='material-icons negro-text bigger'>menu</i>
+          </a>
+          <ul class='side-nav' id='mobile' style='z-index:10'>
+            <li class='negro-text'>
+              <a href='../index.html'>Inicio</a>
+            </li>
+            <li class='negro-text'>
+              <a href='../soluciones-industriales.html'>Soluciones Industriales</a>
+            </li>
+            <li class='negro-tex'>
+              <a href='../dispositivos.html'>Dispositivos</a>
+            </li>
+            <li class='negro-text'>
+              <a href='../servidor.html'>Servidor</a>
+            </li>
+            <li class='negro-text'>
+              <a href='../empresa.html'>Empresa</a>
+            </li>
+            <li class='negro-text'>
+              <a href='../contacto.html'>Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class='cover' style='top:15.5%; width: 100%; position: absolute;'>
+      <div class='orange darken-2' style='height: 60%;'>
+        <h2 class='blanco-bonito-text fuente-Bold-It center' style='padding-top:2%; padding-bottom:1%;'>Dispositivos Inteligencia Satelital</h2>
+      </div>
+    </div>
+    <div class='cover row' style='top:50%'>
+      <section class='section side-m grey-text text-darken-4 col s12 m9'>
+        <article class='container' style='width:100%; height:30% !important;'>
+          <div class='col s12'>
+            <img class='materialboxed' src='../img/syrus.jpg' style='width:100%; height:500px;'>
+          </div>
+        </article>
+        <article class='container' style='width:90%;'>
+          <div class='col s12'>
+            <h1 class='fuente-bold orange-text darken-2'>SYRUS SY2210</h1>
+          </div>
+          <span class='col s1'></span>
+          <div class='col s12'>
+            <p class='justify'>
+              <ul>
+                <li style='list-style-type: none; color:transparent;'>sadf</li>
+                <li class='circleli' style='font-size: 2em; padding-bottom:3%;'>Motor programable de evento-acción/personalización flexible</li>
+                <li class='circleli' style='font-size: 2em; padding-bottom:3%;'>Antenas internas de GPS y GSM</li>
+                <li class='circleli' style='font-size: 2em; padding-bottom:3%;'>Detección de movimiento e impacto/detección de remolque y rendimiento de controlador</li>
+                <li class='circleli' style='font-size: 2em; padding-bottom:3%;'>Múltiples entradas y salidas con compatibilidad one-wire</li>
+                <li class='circleli' style='font-size: 2em; padding-bottom:3%;'>Modo de ahorrador automático de poder</li>
+                <li class='circleli' style='font-size: 2em; padding-bottom:3%;'>Capacidades externas de integración</li>
+                <li class='circleli' style='font-size: 2em; padding-bottom:3%;'>Banda dual UMTS 850 / 1900MHz de transferencia de datos de alta velocidad para una comunicación más rápida y la interacción para aplicaciones</li>
+                <li class='circleli' style='font-size: 2em; padding-bottom:3%;'>Administración remota y actualización del firmware</li>
+                <li class='circleli' style='font-size: 2em; padding-bottom:3%;'>Protocolos múltiples de comunicación y red</li>
+                <li class='circleli' style='font-size: 2em; padding-bottom:3%;'>Soporte técnico de clase mundial</li>
+                <li class='circleli' style='font-size: 2em; padding-bottom:3%;'>Capacidad de almacenar 7200 eventos en caso de falla de red</li>
+                <li class='circleli' style='font-size: 2em; padding-bottom:3%;'>Bateŕía de respaldo interna</li>
+              </ul>
+            </p>
+          </div>
+        </article>
+      </section>
+      <section class='section grey-text text-darken-4 col hide-on-small m3'>
+        <article class='container'>
+          <ul>
+            <li class='side' style='font-size: 1.5em;'>
+              <a href='gpstracker.html'>
+                GPS Tracker Motocicletas
+              </a>
+            </li>
+            <li class='side' style='font-size: 1.5em;'>
+              <a class='mainsolution rojo-text' href='syrus.html'>
+                Syrus SY2210
+              </a>
+            </li>
+            <li class='side' style='font-size: 1.5em;'>
+              <a href='meitrack.html'>
+                Meitrack VT310
+              </a>
+            </li>
+            <li class='side' style='font-size: 1.5em;'>
+              <a href='gpstracker-autos.html'>
+                GPS Tracker Autos
+              </a>
+            </li>
+            <li class='side' style='font-size: 1.5em;'>
+              <a href='mini-tracker.html'>
+                Mini Tracker
+              </a>
+            </li>
+            <li class='side' style='font-size: 1.5em;'>
+              <a href='trackimo.html'>
+                Trackimo
+              </a>
+            </li>
+          </ul>
+        </article>
+      </section>
+    </div>
+    <div class='cover' style='top:325%;'>
+      <div class='prod-cont' style='background-image: url(../img/files.jpg); background-size: 100% 100%;'>
+        <div class='container' style='width:90%; background-color: rgba(255,255,255,0.8); display: block;'>
+          <div class='row'>
+            <div class='col l12 s12ight:'>
+              <h3 class='center fuente-bold-It'>Conoce todas los beneficios que Inteligencia Satelital te ofrece</h3>
+            </div>
+          </div>
+          <div class='row center'>
+            <div class='col l12 s12 center'>
+              <a href='../beneficio.html'>
+                <img src='../img/more-info2.png' style='width: 8%; height:8%;'>
+                <h4 class='rojo-text fuente-Sbold'>Conocer más</h4>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class='page-footer grey darken-3' style='width:100%; bottom: -338% !important;'>
+      <div class='container' style='width:90%;'>
+        <div class='row'>
+          <div class='col l6 s12'>
+            <h4 class='rojo-text fuente-bold-It'>Contacto</h4>
+            <p class='grey-text text-lighten-4 justify fuente-normal-It' style='font-size: 1.2em;'>
+              Ciudad de México
+            </p>
+            <p class='rojo-text text-lighten-4 justify fuente-normal-It' style='font-size: 1.2em;'>
+              Tel:
+              <span class='grey-text text-lighten-4 justify fuente-normal-It' style='font-size: 1.2em;'>(55) 6349 1008</span>
+            </p>
+            <p class='rojo-text text-lighten-4 justify fuente-normal-It' style='font-size: 1.2em;'>
+              Mail:
+              <a href='mailto:direccion@inteligenciasatelital.com'>
+                <span class='grey-text text-lighten-4 justify fuente-normal-It' style='text-decoration: underline; font-size: 1.2em;'>direccion@inteligenciasatelital.com</span>
+              </a>
+            </p>
+            <a href='#'>
+              <p class='blue-text text-lighten-4 justify fuente-normal-It' style='font-size: 1.5em; text-decoration: underline;'>
+                Escríbenos
+              </p>
+            </a>
+          </div>
+          <div class='col l2 s12'>
+            <a href='#'>
+              <img class='responsive-img' src='../img/facebook.png' style='padding-top: 30%; padding-bottom: 20%;'>
+            </a>
+          </div>
+          <div class='col l2 s12'>
+            <a href='#'>
+              <img class='responsive-img' src='../img/twitter.png' style='padding-top: 30%; padding-bottom: 20%;'>
+            </a>
+          </div>
+          <div class='col l2 s12'>
+            <a href='#'>
+              <img class='responsive-img' src='../img/google-plus.png' style='padding-top: 30%; padding-bottom: 20%;'>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class='footer-copyright negro'>
+        <div class='container'>
+          Powered By: ActoSoft
+        </div>
+      </div>
+    </footer>
+    <a class='ancla' onclick='gototop()'>
+      <img src='../img/up-arrow.png'>
+    </a>
+  </body>
+</html>
