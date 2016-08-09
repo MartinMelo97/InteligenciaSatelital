@@ -14,15 +14,15 @@ function CompareNumbers() {
 	if(original == inputted)
 	{
 		alert('Los numeros coinciden!');
-		window.location.assign('../contacto.html');
+		//window.location.assign('../contacto.html');
 	}
 	else
 	{
 		alert('Los números no coinciden, inténtalo nuevamente')
-		//var number = Math.floor(Math.random()* 9000) + 1000;
-		//document.getElementById("number").value = number;
-		//document.getElementById("code").value = null;
-		window.location.assign('../contacto.html');
+		var number = Math.floor(Math.random()* 9000) + 1000;
+		document.getElementById("number").value = number;
+		document.getElementById("code").value = null;
+		//window.location.assign('../contacto.html');
 	}
 
 }
