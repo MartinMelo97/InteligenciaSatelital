@@ -14,7 +14,7 @@
 		%script{src: "../js/facebookapi.js"}
 		%script{src: "../js/main.js"}
 		%meta{name:"viewport", content:"width=device-width, initial-scale=1.0"}
-	%body
+	%body.grey.lighten-2
 		%ul.dropdown-content#dropdown1{style:"background-color:rgba(255,255,255,.7) !important;"}
 			%li
 				%a.grey-text.text-darken-4{:href => "gestion-de-flotas.html"} GESTION DE FLOTAS
@@ -93,7 +93,7 @@
 		.cover{style: "top: 43%;"}
 			%h2.center.blanco-text.fuente-bold-It Gestión de flotas
 		.cover.grey.lighten-2{style:"top:60%;"}
-			.container
+			.container{style:"width:90%;"}
 				.row{style:"padding-top:5%;"}
 					.col.l3.s12
 						.card
@@ -101,10 +101,10 @@
 								.carta-container2
 									.carta2
 										.front2
-											%img.responsive-img{src: "../img/transporte.jpg"}
+											%img{src: "../img/transporte.jpg", style: "height: 230px;"}
 										.back2
 											%a.blanco-text{href: "transporte.html"}
-												%h6.padding-top Más información
+												%h5.padding-top Más información
 												%i.medium.material-icons.topminus present_to_all
 									%h6.center.negro-text.fuente-Sbold Transporte
 					.col.l3.s12
@@ -113,10 +113,10 @@
 								.carta-container2
 									.carta2
 										.front2
-											%img.responsive-img{src: "../img/operaciones.jpg"}
+											%img{src: "../img/operaciones.jpg", style: "height: 230px;"}
 										.back2
 											%a.blanco-text{href: "operaciones.html"}
-												%h6.padding-top Más información
+												%h5.padding-top Más información
 												%i.medium.material-icons.topminus present_to_all
 									%h6.center.negro-text.fuente-Sbold Operaciones
 					.col.l3.s12
@@ -125,10 +125,10 @@
 								.carta-container2
 									.carta2
 										.front2
-											%img.responsive-img{src: "../img/rentaauto.jpg"}
+											%img{src: "../img/rentaauto.jpg", style: "height: 230px;"}
 										.back2
 											%a.blanco-text{href: "renta-autos.html"}
-												%h6.padding-top Más información
+												%h5.padding-top Más información
 												%i.medium.material-icons.topminus present_to_all
 									%h6.center.negro-text.fuente-Sbold Renta de autos
 					.col.l3.s12
@@ -137,10 +137,10 @@
 								.carta-container2
 									.carta2
 										.front2
-											%img.responsive-img{src: "../img/alimentos.jpg"}
+											%img{src: "../img/alimentos.jpg", style: "height: 230px;"}
 										.back2
 											%a.blanco-text{href: "servicio-alimentos.html"}
-												%h6.padding-top Más información
+												%h5.padding-top Más información
 												%i.medium.material-icons.topminus present_to_all
 									%h6.center.negro-text.fuente-Sbold Servicio de alimentos
 				.row
@@ -150,17 +150,17 @@
 								.carta-container2
 									.carta2
 										.front2
-											%img.responsive-img{src: "../img/utilidades2.jpg"}
+											%img{src: "../img/utilidades2.jpg", style: "height: 230px;"}
 										.back2
 											%a.blanco-text{href: "utilidades.html"}
-												%h6.padding-top Más información
+												%h5.padding-top Más información
 												%i.medium.material-icons.topminus present_to_all
 									%h6.center.negro-text.fuente-Sbold Utilidades
 					
 					
 
 
-		%footer.page-footer.grey.darken-3{style:"width:100%; top: 130%; bottom: -88% !important;"}
+		%footer.page-footer.grey.darken-3{style:"width:100%; bottom: -120% !important;"}
 			.container{style:"width:90%;"}
 				.row
 					.col.l6.s12
