@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	$(".slider").slider({
 		interval:2500,
-		indicators:false,
+		indicators:true,
 		transition:800
 
 	});
@@ -70,3 +70,4 @@ function gototop(){
 		scrollTop: 0	
 	}, 500);
 }
+
