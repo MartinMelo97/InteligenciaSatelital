@@ -93,28 +93,30 @@
 		-#		%p.blanco-bonito-text.fuente-Bold-It.center
 		-#			%b Una cosa aquí
 		-#			Otra aquí, que es como una descripcion de la pagina
+		.cover{style: "top:0%; height:45%; position: fixed;"}
+			%img{src: "../img/solucionesback3.jpg", style: "width:100%; !important; position: absolute; height: 100%; opacity: 0.6;"}
 		.cover.row{style:"top:25%"}
 			%section.section.side-m.grey-text.text-darken-4.col.s12.m9
 				%article{style: "width:100%; height:30% !important;"}
 					.col.s12
-						%img{ class:"materialboxed", style:"width:100%;", src:"../img/alimentos.jpg"}		
+						%img{style:"width:100%;", src:"../img/alimentos.jpg"}		
 					
-				%article.container
+				%article.container{style:"width:90%;"}
 					.col.s12
-						%h1.fuente-bold.orange-text.darken-2 Servicio de Alimentos
-					%span.col.s1
-					.col.s12
-						%p.justify.fuente-SI Hay empresas encargadas de la distribución de alimentos. Inteligencia Satelital realiza un seguimiento a las entregas y los activos móviles de distribución, lo que garantiza la seguridad del producto.
-						%h3.col.s12 Beneficios
+						%h1.fuente-bold.orange-text.darken-2.center Servicio de Alimentos
+					.col.s6{style: "padding: 5%;"}
+						%p.justify.fuente-textosmall Hay empresas encargadas de la distribución de alimentos. Inteligencia Satelital realiza un seguimiento a las entregas y los activos móviles de distribución, lo que garantiza la seguridad del producto.
+					.col.s6{style: "padding: 3%;"}
+						%h4.col.s12 Beneficios
 						%p.justify
-							%ul.fuente-SI
+							%ul.fuente-textosmall
 								%li{style: "list-style-type: none; color:transparent;"} sadf
 								%li.circleli Maximice la Seguridad
 								%li.circleli Mayor Eficiencia y Rentabilidad
 								%li.circleli Reduzca costos
 								%li.circleli Mejore la satisfacción de los usuarios
-						%br
-						%h3 Dispositivos
+					.col.s12
+						%h4 Dispositivos
 						%ul.collection
 							%a.collection-item.orange-text.text-darken-4{:href => "#!"} Dispositivo 1
 							%a.collection-item.orange-text.text-darken-4{:href => "#!"} Dispositivo 2
@@ -122,8 +124,10 @@
 					
 
 			%section.section.grey-text.text-darken-4.col.hide-on-small.m3
-				%article.container
+				%article.container{style:"width:100%;"}
 					%ul
+						%li.side
+							%h4.red-text.fuente-Sbold Conoce todas las Soluciones Industriales disponibles!
 						%li.side
 							%a{:href => "transporte.html"} 
 								Transporte
@@ -149,7 +153,7 @@
 							%a{:href => "rastreo-animales.html"} 
 								Rastreo de Animales
 						%li.side
-							%a.mainsolution.rojo-text{:href => "servicio-alimentos.html"} 
+							%a.mainsolution.red-text{:href => "servicio-alimentos.html"} 
 								Servicio de alimentos
 						%li.side
 							%a{:href => "heavy-duty.html"} 
@@ -173,7 +177,7 @@
 							%a{:href => "mineria-petroleo.html"} 
 								Minería, Petróleo, etc
 		
-		.cover{style:"top:260%;"}
+		.cover{style:"top:230%;"}
 			.prod-cont{style: "background-image: url(../img/files.jpg); background-size: 100% 100%;"}
 				.container{style: "width:90%; background-color: rgba(255,255,255,0.8); display: block;"}
 					.row
@@ -186,7 +190,7 @@
 								%h4.rojo-text.fuente-Sbold Conocer más					
 						
 	
-		%footer.page-footer.grey.darken-3{style:"width:100%; bottom: -275% !important;"}
+		%footer.page-footer.grey.darken-3{style:"width:100%; bottom: -245% !important;"}
 			.container{style:"width:90%;"}
 				.row
 					.col.l6.s12

@@ -317,4 +317,21 @@ td {
 .fuente-SI {
   font-size: 1.5em; }
 
+.fuente-textosmall {
+  font-size: 1.2em; }
+
+.slide-next {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.65);
+  color: #FFF;
+  cursor: pointer;
+  text-align: center;
+  position: fixed;
+  right: 10px;
+  /*display: ;*/
+  z-index: 999;
+  transition-duration: .2s;
+  transition-property: background-color; }
+
 /*# sourceMappingURL=main.css.map */
