@@ -87,58 +87,65 @@
 						%li.negro-text
 							%a{:href => "../contacto.html"} Contacto
 
-		.cover{style:"top:15.5%; width: 100%; position: absolute;"}
-			.orange.darken-2{style: "height: 60%;"}
-				%h2.blanco-bonito-text.fuente-Bold-It.center{style:"padding-top:2%; padding-bottom:1%;"} Dispositivos Inteligencia Satelital
-		.cover.row{style:"top:50%"}
+		.cover{style: "top:0%; height:45%; position: fixed;"}
+			%img{src: "../img/dispositivosback2.jpg", style: "width:100%; !important; position: absolute; height: 100%; opacity: 0.4;"}
+
+		-#.cover{style:"top:15.5%; width: 100%; position: absolute;"}
+		-#	.orange.darken-2{style: "height: 60%;"}
+		-#		%h2.blanco-bonito-text.fuente-Bold-It.center{style:"padding-top:2%; padding-bottom:1%;"} Dispositivos Inteligencia Satelital
+		.cover.row{style:"top:25%"}
 			%section.section.side-m.grey-text.text-darken-4.col.s12.m9
 				%article.container{style: "width:100%; height:30% !important;"}
 					.col.s12
-						%img{ class:"materialboxed", style:"width:100%; height:500px;", src:"../img/gpstracker3.jpg"}	
+						%img{style:"width:100%; height:500px;", src:"../img/gpstracker3.jpg"}	
 					
 				%article.container{style:"width:90%;"}
 					.col.s12
-						%h1.fuente-bold.orange-text.darken-2 GPS Tracker
-					%span.col.s1
-					.col.s12
-						%p.justify
-							%ul{style: "padding-left: 5%;"}
-								%li{style: "list-style-type: none; color:transparent;"} sadf
-								%li.circleli{style: "font-size: 2em; padding-bottom:3%;"} Rastreo satelital en tiempo real y a nivel de calle
-								%li.circleli{style: "font-size: 2em; padding-bottom:3%;"} Identifique sus vehículos desde su equipo móvil celular (smartphone, ipod, iphone) sin contratos previos.
-								%li.circleli{style: "font-size: 2em; padding-bottom:3%;"} Trasmite datos GPS y así mismo funciona como micrófono espía permitiéndole escuchar lo que sucede dentro de la unidad.
-								%li.circleli{style: "font-size: 2em; padding-bottom:3%;"} Botón de pánico: en caso de cualquier emergencia o peligro presione el botón de paico y el GPS enviara un SMS indicándole la posición de donde se localiza la persona y una alerta de auxilio.
-								%li.circleli{style: "font-size: 2em; padding-bottom:3%;"} Apagado y encendido automático de la unidad; solo con enviar un SMS desde su Smart pone usted tendrá la seguridad de que la unidad estará inhabilitada hasta que usted de la orden de lo contrario, permitiéndole recuperarla sin darles oportunidad a los delincuentes de que sigan avanzando.
-								%li.circleli{style: "font-size: 2em; padding-bottom:3%;"} Aleta de acceso de velocidad: si la unidad rebasa el límite de velocidad indicado por usted, el equipo le envía una alerta indicándole la velocidad y la posición de donde se localiza su unidad.
-								%li.circleli{style: "font-size: 2em; padding-bottom:3%;"} En caso de que la batería de su unidad sea extraída sin o con su autorización el equipo le envía un alerta indicándole dicho suceso así como la posición de donde se localiza su unidad.
-								%li.circleli{style: "font-size: 2em; padding-bottom:3%;"} Batería de respaldo interna
+						%h1.fuente-bold.orange-text.darken-2.center GPS Tracker Autos
+
+					.col.s6{style:"padding: 5%;"}
+						%ul.justify.fuente-textobig
+							
+							%li.circleli{style: "padding-bottom:3%;"} Rastreo satelital en tiempo real y a nivel de calle
+							%li.circleli{style: "padding-bottom:3%;"} Identifique sus vehículos desde su equipo móvil celular (smartphone, Ipod, iIphone) sin contratos previos.
+							%li.circleli{style: "padding-bottom:3%;"} Trasmite datos GPS y así mismo funciona como micrófono espía permitiéndole escuchar lo que sucede dentro de la unidad.
+							%li.circleli{style: "padding-bottom:3%;"} Botón de pánico: En caso de cualquier emergencia o peligro presione el botón de pánico y el GPS enviará un SMS indicándole la posición de donde se localiza la persona y una alerta de auxilio.
+							%li.circleli{style: "padding-bottom:3%;"} Alerta de acceso de velocidad: Si la unidad rebasa el límite de velocidad indicado por usted, el equipo le envía una alerta indicándole la velocidad y la posición de donde se localiza su unidad.
+					.col.s6{style:"padding: 5%;"}
+						%ul.justify.fuente-textobig
+							%li.circleli{style: "padding-bottom:3%;"} Apagado y encendido automático de la unidad: Sólo con enviar un SMS desde su Smartphone usted tendrá la seguridad de que la unidad estará inhabilitada hasta que usted de la orden de lo contrario, permitiéndole recuperarla sin darles oportunidad a los delincuentes de que sigan avanzando.
+							%li.circleli{style: "padding-bottom:3%;"} En caso de que la batería de su unidad sea extraída sin o con su autorización el equipo le envía un alerta indicándole dicho suceso así como la posición de donde se localiza su unidad.
+							%li.circleli{style: "padding-bottom:3%;"} Batería de respaldo interna
 								
 					
 			%section.section.grey-text.text-darken-4.col.hide-on-small.m3
-				%article.container
+				%article.container{style:"width:100%;"}
 					%ul
-						%li.side{style:"font-size: 1.5em;"}
+						%li.side
+							%h4.red-text.fuente-Sbold Descubre los dispositivos disponibles en Inteligencia Satelital!
+						%li.side.fuente-textosmall
 							%a{:href => "gps-tracker.html"} 
 								GPS Tracker Motocicletas
 						
-						%li.side{style:"font-size: 1.5em;"}
+						%li.side.fuente-textosmall
 							%a{:href => "syrus-sy2210.html"} 
 								Syrus SY2210
-						%li.side{style:"font-size: 1.5em;"}
+						%li.side.fuente-textosmall
 							%a{:href => "meitrack-vt310.html"} 
 								Meitrack VT310
-						%li.side{style:"font-size: 1.5em;"}
-							%a.mainsolution.rojo-text{:href => "gps-tracker-vehiculos.html"} 
+						%li.side.fuente-textosmall
+							%a.mainsolution.red-text{:href => "gps-tracker-vehiculos.html"} 
 								GPS Tracker Autos
-						%li.side{style:"font-size: 1.5em;"}
+						%li.side.fuente-textosmall
 							%a{:href => "mini-tracker.html"} 
 								Mini Tracker
-						%li.side{style:"font-size: 1.5em;"}
+						%li.side.fuente-textosmall
 							%a{:href => "trackimo.html"} 
 								Trackimo
 				
+				
 		
-		.cover{style:"top:370%;"}
+		.cover{style:"top:260%;"}
 			.prod-cont{style: "background-image: url(../img/files.jpg); background-size: 100% 100%;"}
 				.container{style: "width:90%; background-color: rgba(255,255,255,0.8); display: block;"}
 					.row
@@ -151,7 +158,7 @@
 								%h4.rojo-text.fuente-Sbold Conocer más				
 						
 	
-		%footer.page-footer.grey.darken-3{style:"width:100%; bottom: -382% !important;"}
+		%footer.page-footer.grey.darken-3{style:"width:100%; bottom: -275% !important;"}
 			.container{style:"width:90%;"}
 				.row
 					.col.l6.s12
